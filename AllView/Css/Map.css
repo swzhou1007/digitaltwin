@@ -1,0 +1,436 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Microsoft YaHei';
+	font-size: 14px;
+}
+
+table {
+	font-size: 8px;
+}
+
+#mapmain {
+	margin: 0px;
+	padding: 0px;
+	background: url('/Images/底图.png') no-repeat;
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+#map {
+	margin: 0px auto;
+	width: 800px;
+	height: 800px;
+	position: relative;
+	cursor: pointer;
+	background: url('../../Images/map/map.png') repeat;
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.maptitle {
+	position: absolute;
+	top: 30px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.mapalarm {
+	position: absolute;
+	top: 60px;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.mapalarm marquee {
+	color: red;
+	font-size: 12px;
+}
+
+.floorList {
+	/* text-align: center; */
+	/* margin-top: 60px; */
+	/*font-size: 12px;*/
+	color: FFFFFF;
+	/*background-color: #083854;*/
+	border-bottom-width: 2px;
+	border-color: #DCDCDC;
+	line-height: 32px;
+	/* overflow: auto; */
+	height: 550px;
+}
+
+#content {
+	width: 98%;
+	height: 180px;
+	float: left;
+	color: white;
+	text-anchor: start;
+	padding: 3px;
+	overflow: auto;
+	max-height: 400px;
+}
+
+#content a {
+	color: white;
+}
+
+#content a:active {
+	color: white;
+}
+
+#content a:hover {
+	color: red;
+}
+
+#description {
+	font-size: 12px;
+	width: 100%;
+	height: 400px;
+	margin-top: 100px;
+	border-radius: 5px;
+	background: #0d3651;
+	border: solid 1px #1d3f74;
+	margin-right: 0px;
+	float: right;
+	/*opacity: 0.5;*/
+}
+
+#maptop {
+	position: absolute;
+	width: 1920px;
+	height: 80px;
+	/* float: right; */
+	left: 0px;
+	top: 0px;
+	background: url('../../Images/顶部图标/顶部导航_01.png') repeat;
+	/*background-color: rgba(53, 55, 52, 0.67);*/
+	/* background-color: blue; */
+}
+
+.logo {
+	margin-top: 15px;
+	margin-left: 25px;
+	float: left;
+}
+
+.top_title {
+	position: absolute;
+	top: 18px;
+	left: 830px;
+}
+
+.top_date {
+	float: left;
+	margin-top: 20px;
+	margin-left: 1380px;
+}
+
+.top_fancy {
+	float: left;
+	margin-top: 20px;
+}
+
+#mapbottom {
+	width: 1920px;
+	height: 104px;
+	position: absolute;
+	/* left: 128px; */
+	top: 975px;
+	overflow: auto;
+	background-color: rgba(53, 55, 52, 0.67);
+	padding: 10px 0 0 160px;
+}
+
+#mapbottom button {
+	margin-right: 145px;
+	height: 90px;
+	width: 100px;
+	padding: 30px 0 0 0;
+	background: no-repeat center top;
+	font-size: 18px;
+}
+
+#mapleft {
+	position: absolute;
+	right: 10px;
+	top: 60px;
+	background-color: #EEEEEE;
+	width: 300px;
+	height: 670px;
+	color: blank;
+	float: none;
+	font-size: 14px;
+	/*background-image:url(../../Images/顶部图标/back.jpg); background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;*/
+	/* filter: Alpha(Opacity=80); */
+	/*IE*/
+	/* -moz-opacity: 0.8; */
+	/*FF*/
+	/* opacity: 0.8; */
+	z-index: 10000;
+	border-radius: 3px;
+	user-select: none;
+}
+
+#mapcenter {
+	float: left;
+}
+
+#map {
+	margin-top: 50px;
+}
+
+#mapright {
+	position: absolute;
+	top: 155px;
+	left: 1610px;
+	width: 300px;
+	height: 670px;
+	color: white;
+	float: none;
+	font-size: 12px;
+}
+
+.divrighttitle {
+	height: 38px;
+	background-color: rgba(0, 0, 0, 0.31);
+}
+
+#divalarm {
+	background-color: #364556;
+	height: 188px;
+	width: 100%;
+}
+
+#divdevchart {
+	margin-top: 8px;
+	margin-left: 0px;
+	height: 195px;
+	border-radius: 5px;
+	background-color: #364556;
+}
+
+#divpowerchart {
+	margin-top: 8px;
+	margin-left: 0px;
+	height: 270px;
+	border-radius: 5px;
+	background-color: #364556;
+}
+
+p {
+	line-height: 20px;
+}
+
+text {
+	height: 200px;
+}
+
+#box {
+	margin: 0px;
+	height: 40px;
+	padding: 5px;
+	background-color: #495260;
+}
+
+#txtsearch {
+	width: 240px;
+	border: none;
+	height: 30px;
+	float: left;
+	padding: 0 0 0 8px;
+	background-color: #495260;
+}
+
+#btnsearch {
+	width: 38px;
+	height: 22px;
+	float: right;
+	color: white;
+	text-align: center;
+	line-height: 22px;
+	cursor: pointer;
+}
+
+#myTab li {
+	width: 33%;
+}
+
+#myTab li a {
+	line-height: 8px;
+}
+
+.floorList input {
+	height: 26px;
+	margin-left: 5px;
+	BACKGROUND-COLOR: transparent;
+	border: 1px solid;
+}
+
+.floorList ul li {
+	list-style-type: none;
+	/*border: 1px solid #525261;*/
+	background: url('../../Images/左边导航图标/西南证券运营指挥中心_07.png') bottom no-repeat;
+	display: block;
+	height: 30px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 3px;
+	margin: 5px 0;
+	padding-left: 10px;
+	font-size: 14px !important;
+	cursor: pointer;
+	
+}
+
+.floorList ul li label {
+	cursor: pointer;
+	overflow: hidden;
+	text-overflow:ellipsis;	
+	white-space: nowrap;
+}
+
+.floorList-close-btn {
+	position: absolute;
+	top:10px;
+	right: 10px;
+	width: 10px;
+	height: 10px;
+	background: url(../../Images/close.png) no-repeat;
+	background-position: center;
+	cursor: pointer;
+	z-index: 100;
+}
+
+
+
+.on {
+	background-color: gray;
+	color: #1071e2;
+}
+
+.on label {
+	color: #1071e2;
+}
+
+.off {
+	background-color: none;
+	color: white;
+}
+
+.fa-on {
+	/* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    float: left;
+    background-position: center;
+    width: 13px;
+    height: 13px;
+    display: block; */
+	/*background: url('../../Images/左边导航图标/西南证券运营指挥中心_03.png') no-repeat;*/
+}
+
+.fa-off {
+	/* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    float: left;
+    background-position: center;
+    width: 13px;
+    height: 13px;
+    display: block; */
+	/*background: url('../../Images/左边导航图标/西南证券运营指挥中心_11.png') no-repeat;*/
+}
+
+.offbtn {
+	background-color: none;
+	border-width: 0px;
+}
+
+#selectvar a {
+	color: white;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+	color: #e0d811;
+	cursor: default;
+	background-color: #384857;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+
+.nav>li>a {
+	color: white;
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+
+.cb_floorList::-webkit-scrollbar {
+	/*滚动条整体样式*/
+	width: 5px;
+	/*高宽分别对应横竖滚动条的尺寸*/
+	height: 1px;
+}
+
+.cb_floorList::-webkit-scrollbar-thumb {
+	/*滚动条里面小方块*/
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: #666666;
+}
+
+.cb_floorList::-webkit-scrollbar-track {
+	/*滚动条里面轨道*/
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	background: #ededed;
+}
+
+.floorList-title {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.cb_floorList {
+	padding: 0 10px;
+	height: calc(100% - 43px);
+	overflow: scroll;
+	    margin: 0;
+}
+
+#showFloorList{
+	
+	position: absolute;
+	top:60px;
+	right: 10px;
+	z-index: 10000;
+	width: 36px;
+	height: 36px;
+	border-radius: 5px;
+	background-color: #fff;
+	display: none;
+	background-image: url(../Images/arrow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#showFloorList:hover{	
+	background-image: url(../Images/arrow-active.png);	
+}

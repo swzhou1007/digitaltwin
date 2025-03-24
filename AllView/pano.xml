@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node10">
+  <panorama id="node10">
+    <input leveltileurl="Tiles/反冲洗用房/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5781" levelingroll="0" levelbias="0.400" overlap="1" levelingpitch="0" leveltilesize="510" height="5781" levelbiashidpi="0.400">
+      <level width="5781" preload="0" height="5781" predecode="0"/>
+      <level width="2890" preload="0" height="2890" predecode="0"/>
+      <level width="1445" preload="0" height="1445" predecode="0"/>
+      <level width="722" preload="0" height="722" predecode="0"/>
+      <level width="361" preload="1" height="361" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata latitude="" datetime="2018:07:31 10:52:57" title="" info="" longitude="" description="" copyright="" author="" comment="" tags="修图" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" bordercolor="0x000000" border="1" backgroundalpha="1" background="1" textalpha="1" wordwrap="1" enabled="1" height="20" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot tilt="-4.74" url="{node9}" skinid="ht_node" title="反冲洗水泵" target="" id="Point01" description="反冲洗水泵" pan="-45.8"/>
+      <hotspot tilt="-7.03" url="{node8}" skinid="ht_node" title="反冲洗廊坊" target="" id="Point02" description="反冲洗廊坊" pan="-101.91"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" blendtime="3" zoomin="0" zoomspeed="20" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" enabled="0" zoomout="0"/>
+    <autorotate delay="10.00" nodedelay="60.00" returntohorizon="0.000" useanimation="0" noderandom="0" speed="0.020" startloaded="0"/>
+    <control speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextfullscreen="0" invertcontrol="1" invertwheel="0" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node9">
+    <input leveltileurl="Tiles/反冲洗水泵/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5753" levelingroll="0" levelbias="0.400" overlap="1" levelingpitch="0" leveltilesize="510" height="5753" levelbiashidpi="0.400">
+      <level width="5753" preload="0" height="5753" predecode="0"/>
+      <level width="2876" preload="0" height="2876" predecode="0"/>
+      <level width="1438" preload="0" height="1438" predecode="0"/>
+      <level width="719" preload="0" height="719" predecode="0"/>
+      <level width="359" preload="1" height="359" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata latitude="" datetime="2018:07:31 10:42:51" title="" info="" longitude="" description="" copyright="" author="" comment="" tags="修图" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" bordercolor="0x000000" border="1" backgroundalpha="1" background="1" textalpha="1" wordwrap="1" enabled="1" height="20" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot tilt="-1.46" url="{node8}" skinid="ht_node" title="反冲洗廊坊" target="" id="Point01" description="反冲洗廊坊" pan="-158.02"/>
+      <hotspot tilt="-4.21" url="{node10}" skinid="ht_node" title="反冲洗用房" target="" id="Point02" description="反冲洗用房" pan="-176.46"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" blendtime="3" zoomin="0" zoomspeed="20" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" enabled="0" zoomout="0"/>
+    <autorotate delay="10.00" nodedelay="60.00" returntohorizon="0.000" useanimation="0" noderandom="0" speed="0.020" startloaded="0"/>
+    <control speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextfullscreen="0" invertcontrol="1" invertwheel="0" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node17">
+    <input leveltileurl="Tiles/排泥池/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5774" levelingroll="0" levelbias="0.400" overlap="1" levelingpitch="0" leveltilesize="510" height="5774" levelbiashidpi="0.400">
+      <level width="5774" preload="0" height="5774" predecode="0"/>
+      <level width="2887" preload="0" height="2887" predecode="0"/>
+      <level width="1443" preload="0" height="1443" predecode="0"/>
+      <level width="721" preload="0" height="721" predecode="0"/>
+      <level width="360" preload="1" height="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata latitude="29.869270" datetime="" title="排泥池" info="排泥池" longitude="106.073025" description="排泥池" copyright="" author="" comment="" tags="全景修图" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" bordercolor="0x000000" border="1" backgroundalpha="1" background="1" textalpha="1" wordwrap="1" enabled="1" height="20" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot tilt="15.28" url="{node26}" skinid="ht_node" title="一期3_4号滤池" target="$fwd" id="Point01" description="" pan="116.995"/>
+      <hotspot tilt="11.91" url="{node29}" skinid="ht_node" title="一期沉淀池3" target="$fwd" id="Point05" description="" pan="51.0891"/>
+      <hotspot tilt="11.11" url="{node24}" skinid="ht_node" title="淤泥池" target="$fwd" id="Point07" description="" pan="-40.8486"/>
+      <hotspot tilt="2.61" url="{node12}" skinid="ht_node" title="回用水池" target="$fwd" id="Point08" description="" pan="-129.568"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" blendtime="3" zoomin="0" zoomspeed="20" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" enabled="0" zoomout="0"/>
+    <autorotate delay="10.00" nodedelay="60.00" returntohorizon="0.000" useanimation="0" noderandom="0" speed="0.020" startloaded="0"/>
+    <control speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextfullscreen="0" invertcontrol="1" invertwheel="0" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>  
+  <panorama id="node24">
+    <input leveltileurl="Tiles/污泥池/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5772" levelingroll="0" levelbias="0.400" overlap="1" levelingpitch="0" leveltilesize="510" height="5772" levelbiashidpi="0.400">
+      <level width="5772" preload="0" height="5772" predecode="0"/>
+      <level width="2886" preload="0" height="2886" predecode="0"/>
+      <level width="1443" preload="0" height="1443" predecode="0"/>
+      <level width="721" preload="0" height="721" predecode="0"/>
+      <level width="360" preload="1" height="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata latitude="29.869510" datetime="" title="" info="" longitude="106.073198" description="" copyright="" author="" comment="" tags="全景修图" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" bordercolor="0x000000" border="1" backgroundalpha="1" background="1" textalpha="1" wordwrap="1" enabled="1" height="20" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot tilt="2.17" url="{node25}" skinid="ht_node" title="一期1_2号滤池" target="$fwd" id="Point01" description="" pan="118.314"/>
+      <hotspot tilt="2.83" url="{node29}" skinid="ht_node" title="一期沉淀池3" target="$fwd" id="Point03" description="" pan="82.3503"/>
+      <hotspot tilt="0.43" url="{node23}" skinid="ht_node" title="脱水机房路口" target="$fwd" id="Point05" description="" pan="-10.3803"/>
+      <hotspot tilt="-2.52" url="{node17}" skinid="ht_node" title="排泥池" target="$fwd" id="Point07" description="" pan="113.631"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" blendtime="3" zoomin="0" zoomspeed="20" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" enabled="0" zoomout="0"/>
+    <autorotate delay="10.00" nodedelay="60.00" returntohorizon="0.000" useanimation="0" noderandom="0" speed="0.020" startloaded="0"/>
+    <control speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextfullscreen="0" invertcontrol="1" invertwheel="0" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node27">
+    <input leveltileurl="Tiles/一期沉淀池1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5756" levelingroll="0" levelbias="0.400" overlap="1" levelingpitch="0" leveltilesize="510" height="5756" levelbiashidpi="0.400">
+      <level width="5756" preload="0" height="5756" predecode="0"/>
+      <level width="2878" preload="0" height="2878" predecode="0"/>
+      <level width="1439" preload="0" height="1439" predecode="0"/>
+      <level width="719" preload="0" height="719" predecode="0"/>
+      <level width="359" preload="1" height="359" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata latitude="29.870484" datetime="" title="" info="" longitude="106.072867" description="" copyright="" author="" comment="" tags="全景修图" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" bordercolor="0x000000" border="1" backgroundalpha="1" background="1" textalpha="1" wordwrap="1" enabled="1" height="20" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot tilt="4.17" url="{node28}" skinid="ht_node" title="一期沉淀池2" target="$fwd" id="Point01" description="" pan="78.9743"/>
+      <hotspot tilt="4.75" url="{node22}" skinid="ht_node" title="脱水机房" target="$fwd" id="Point08" description="" pan="98.0899"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" blendtime="3" zoomin="0" zoomspeed="20" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" enabled="0" zoomout="0"/>
+    <autorotate delay="10.00" nodedelay="60.00" returntohorizon="0.000" useanimation="0" noderandom="0" speed="0.020" startloaded="0"/>
+    <control speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextfullscreen="0" invertcontrol="1" invertwheel="0" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node29">
+    <input leveltileurl="Tiles/一期沉淀池3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5762" levelingroll="0" levelbias="0.400" overlap="1" levelingpitch="0" leveltilesize="510" height="5762" levelbiashidpi="0.400">
+      <level width="5762" preload="0" height="5762" predecode="0"/>
+      <level width="2881" preload="0" height="2881" predecode="0"/>
+      <level width="1440" preload="0" height="1440" predecode="0"/>
+      <level width="720" preload="0" height="720" predecode="0"/>
+      <level width="360" preload="1" height="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata latitude="29.869453" datetime="" title="一期沉淀池3" info="一期沉淀池3" longitude="106.072821" description="一期沉淀池3" copyright="" author="" comment="" tags="修图" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" bordercolor="0x000000" border="1" backgroundalpha="1" background="1" textalpha="1" wordwrap="1" enabled="1" height="20" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot tilt="1.88" url="{node26}" skinid="ht_node" title="一期3_4号滤池" target="$fwd" id="Point01" description="" pan="-90.7384"/>
+      <hotspot tilt="-1.94" url="{node17}" skinid="ht_node" title="排泥池" target="$fwd" id="Point03" description="" pan="-130.421"/>
+      <hotspot tilt="0.89" url="{node27}" skinid="ht_node" title="一期沉淀池1" target="$fwd" id="Point04" description="" pan="96.7544"/>
+      <hotspot tilt="-8.57" url="{node7}" skinid="ht_node" title="反冲洗房路口" target="$fwd" id="Point05" description="" pan="-12.5003"/>
+      <hotspot tilt="0.3" url="{node24}" skinid="ht_node" title="污泥池" target="$fwd" id="Point08" description="" pan="36.4404"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" blendtime="3" zoomin="0" zoomspeed="20" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" enabled="0" zoomout="0"/>
+    <autorotate delay="10.00" nodedelay="60.00" returntohorizon="0.000" useanimation="0" noderandom="0" speed="0.020" startloaded="0"/>
+    <control speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextfullscreen="0" invertcontrol="1" invertwheel="0" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node18">
+    <input leveltileurl="Tiles/送水泵房1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5789" levelingroll="0" levelbias="0.400" overlap="1" levelingpitch="0" leveltilesize="510" height="5789" levelbiashidpi="0.400">
+      <level width="5789" preload="0" height="5789" predecode="0"/>
+      <level width="2894" preload="0" height="2894" predecode="0"/>
+      <level width="1447" preload="0" height="1447" predecode="0"/>
+      <level width="723" preload="0" height="723" predecode="0"/>
+      <level width="361" preload="1" height="361" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata latitude="" datetime="" title="" info="" longitude="" description="" copyright="" author="" comment="" tags="修图" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" bordercolor="0x000000" border="1" backgroundalpha="1" background="1" textalpha="1" wordwrap="1" enabled="1" height="20" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot tilt="7.43" url="{node20}" skinid="ht_node" title="送水变频柜" target="" id="Point01" description="配电室" pan="-21.46"/>
+      <hotspot tilt="5.22" url="{node19}" skinid="ht_node" title="送水泵房2" target="" id="Point03" description="送水泵房3" pan="-121.48"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" blendtime="3" zoomin="0" zoomspeed="20" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" enabled="0" zoomout="0"/>
+    <autorotate delay="10.00" nodedelay="60.00" returntohorizon="0.000" useanimation="0" noderandom="0" speed="0.020" startloaded="0"/>
+    <control speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextfullscreen="0" invertcontrol="1" invertwheel="0" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node19">
+    <input leveltileurl="Tiles/送水泵房2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5773" levelingroll="0" levelbias="0.400" overlap="1" levelingpitch="0" leveltilesize="510" height="5773" levelbiashidpi="0.400">
+      <level width="5773" preload="0" height="5773" predecode="0"/>
+      <level width="2886" preload="0" height="2886" predecode="0"/>
+      <level width="1443" preload="0" height="1443" predecode="0"/>
+      <level width="721" preload="0" height="721" predecode="0"/>
+      <level width="360" preload="1" height="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata latitude="" datetime="" title="" info="" longitude="" description="" copyright="" author="" comment="" tags="修图" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderradius="1" bordercolor="0x000000" border="1" backgroundalpha="1" background="1" textalpha="1" wordwrap="1" enabled="1" height="20" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot tilt="2.3" url="{node20}" skinid="ht_node" title="送水变频柜" target="" id="Point01" description="配电室" pan="75.11"/>
+      <hotspot tilt="-8.11" url="{node18}" skinid="ht_node" title="送水泵房1" target="" id="Point02" description="送水泵房1" pan="99.59"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" blendtime="3" zoomin="0" zoomspeed="20" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" enabled="0" zoomout="0"/>
+    <autorotate delay="10.00" nodedelay="60.00" returntohorizon="0.000" useanimation="0" noderandom="0" speed="0.020" startloaded="0"/>
+    <control speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextfullscreen="0" invertcontrol="1" invertwheel="0" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+
+  <panorama id="node21">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/停车场/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 15:01:57" source="" comment="" description="" info="" copyright="" longitude="106.071794" title="" tags="修图" latitude="29.868683" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node30}" description="" id="Point11" title="综合楼" skinid="ht_node" target="" tilt="-2.7" pan="146.92"/>
+      <hotspot url="{node4}" description="" id="Point12" title="二期沉淀池1" skinid="ht_node" target="" tilt="-0.39" pan="-160.69"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node30">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/综合楼/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 15:38:51" source="" comment="" description="" info="" copyright="" longitude="106.072450" title="" tags="修图" latitude="29.868389" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node31}" description="" id="Point25" title="综合楼十字路口" skinid="ht_node" target="$fwd" tilt="-4.3" pan="-176.562"/>
+      <hotspot url="{node21}" description="" id="Point29" title="停车场" skinid="ht_node" target="" tilt="-6.25" pan="-136.24"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node31">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/综合楼十字路口/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 15:35:23" source="" comment="" description="" info="" copyright="" longitude="106.072303" title="" tags="修图" latitude="29.868936" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node30}" description="" id="Point17" title="综合楼" skinid="ht_node" target="" tilt="4.79" pan="-138.41"/>
+      <hotspot url="{node10}" description="" id="Point16" title="反冲洗用房" skinid="ht_node" target="$fwd" tilt="-2.6" pan="-38.0075"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+
+  <panorama id="node8">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/反冲洗廊房/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:20 16:45:37" source="" comment="" description="" info="" copyright="" longitude="106.072550" title="" tags="修图" latitude="29.869083" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node10}" description="" id="Point16" title="反冲洗用房" skinid="ht_node" target="$fwd" tilt="9.3" pan="120.772"/>
+      <hotspot url="{node12}" description="" id="Point11" title="回用水池" skinid="ht_node" target="" tilt="-3.82" pan="-42.48"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node12">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/回用水池/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 11:36:11" source="" comment="" description="" info="" copyright="" longitude="106.073069" title="" tags="修图" latitude="29.869025" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node8}" description="" id="Point10" title="反冲洗廊房" skinid="ht_node" target="" tilt="-8.53" pan="-88.94"/>
+      <hotspot url="{node17}" description="" id="Point11" title="排泥池" skinid="ht_node" target="" tilt="3.73" pan="-133.97"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node26">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/一期3_4号滤池/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 16:44:18" source="" comment="" description="" info="" copyright="" longitude="106.072831" title="" tags="修图" latitude="29.869258" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node17}" description="" id="Point23" title="排泥池" skinid="ht_node" target="" tilt="-2.79" pan="108.82"/>
+      <hotspot url="{node25}" description="" id="Point01" title="一期1_2号滤池" skinid="ht_node" target="$fwd" tilt="-4.52" pan="-103.32"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node25">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/一期1_2号滤池/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 17:08:03" source="" comment="" description="" info="" copyright="" longitude="106.072647" title="" tags="修图" latitude="29.869281" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node26}" description="" id="Point07" title="一期3_4号滤池" skinid="ht_node" target="$fwd" tilt="-6.35" pan="54.187"/>
+      <hotspot url="{node24}" description="" id="Point01" title="污泥池" skinid="ht_node" target="$fwd" tilt="-3.45" pan="79.15"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+
+  <panorama id="node23">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/脱水机房路口/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 15:08:39" source="" comment="" description="" info="" copyright="" longitude="106.072594" title="" tags="修图" latitude="29.869489" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node24}" description="" id="Point01" title="污泥池" skinid="ht_node" target="$fwd" tilt="8.3" pan="-75.39"/>
+      <hotspot url="{node22}" description="" id="Point02" title="脱水机房" skinid="ht_node" target="$fwd" tilt="-13.22" pan="-178.56"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node22">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/脱水机房/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 15:05:48" source="" comment="" description="" info="" copyright="" longitude="106.073181" title="" tags="修图" latitude="29.869853" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node27}" description="" id="Point02" title="一期沉淀池1" skinid="ht_node" target="$fwd" tilt="-13.7" pan="-125.79"/>
+      <hotspot url="{node23}" description="" id="Point02" title="脱水机房路口" skinid="ht_node" target="$fwd" tilt="-12.12" pan="-154.89"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node28">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/一期沉淀池2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 15:53:26" source="" comment="" description="" info="" copyright="" longitude="106.072769" title="" tags="修图" latitude="29.870294" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node27}" description="" id="Point02" title="一期沉淀池1" skinid="ht_node" target="$fwd" tilt="0" pan="-23.4404"/>
+      <hotspot url="{node29}" description="" id="Point01" title="一期沉淀池3" skinid="ht_node" target="$fwd" tilt="-5.59" pan="-50.3"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node7">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/反冲洗房路口/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:20 16:29:03" source="" comment="" description="" info="" copyright="" longitude="106.072178" title="" tags="修图" latitude="29.869186" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node10}" description="" id="Point01" title="反冲洗房" skinid="ht_node" target="$fwd" tilt="0" pan="139.678"/>
+      <hotspot url="{node29}" description="" id="Point02" title="一期沉淀池3" skinid="ht_node" target="$fwd" tilt="0.1" pan="177.53"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node1">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/低压配电室/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 17:13:38" source="" comment="" description="" info="" copyright="" longitude="106.071881" title="" tags="修图" latitude="29.869406" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node11}" description="" id="Point01" title="高压配电室" skinid="ht_node" target="$fwd" tilt="-36.48" pan="-141.3"/>
+      <hotspot url="{node7}" description="" id="Point01" title="反冲洗房路口" skinid="ht_node" target="$fwd" tilt="-18.11" pan="104.262"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node11">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/高压配电室/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:20 17:15:15" source="" comment="" description="" info="" copyright="" longitude="106.072064" title="" tags="修图" latitude="29.869436" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node20}" description="" id="Point01" title="送水变频柜" skinid="ht_node" target="$fwd" tilt="-16.66" pan="-160.19"/>
+      <hotspot url="{node1}" description="" id="Point01" title="低压配电室" skinid="ht_node" target="$fwd" tilt="-13.44" pan="26.738"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node20">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/送水变频柜/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 14:23:00" source="" comment="" description="" info="" copyright="" longitude="106.072367" title="" tags="修图" latitude="29.869475" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node11}" description="" id="Point01" title="高压配电室" skinid="ht_node" target="$fwd" tilt="-23.82" pan="124.59"/>
+      <hotspot url="{node18}" description="" id="Point02" title="送水泵房1" skinid="ht_node" target="" tilt="-20.09" pan="-80.55"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+
+  <panorama id="node3">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/二期7_8号滤池/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:20 15:10:00" source="" comment="" description="" info="" copyright="" longitude="106.072625" title="" tags="修图" latitude="29.868808" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node30}" description="" id="Point01" title="综合楼" skinid="ht_node" target="$fwd" tilt="-3.12" pan="24.47"/>
+      <hotspot url="{node2}" description="" id="Point02" title="二期5_6号滤池" skinid="ht_node" target="$fwd" tilt="-7.36" pan="121.36"/>
+      <hotspot url="{node9}" description="" id="Point03" title="反冲洗水泵" skinid="ht_node" target="$fwd" tilt="-2.47" pan="153.57"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/二期5_6号滤池/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:20 15:04:30" source="" comment="" description="" info="" copyright="" longitude="106.072797" title="" tags="修图" latitude="29.868828" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node3}" description="" id="Point01" title="二期7_8号滤池" skinid="ht_node" target="$fwd" tilt="-4.41" pan="-82.41"/>
+      <hotspot url="{node14}" description="" id="Point02" title="加药车间" skinid="ht_node" target="$fwd" tilt="-3.41" pan="164.99"/>
+      <hotspot url="{node30}" description="" id="Point03" title="综合楼" skinid="ht_node" target="$fwd" tilt="-3.53" pan="30.42"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node14">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/加药车间/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 11:57:22" source="" comment="" description="" info="" copyright="" longitude="106.073219" title="" tags="修图" latitude="29.870303" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node2}" description="" id="Point01" title="二期5_6号滤池" skinid="ht_node" target="$fwd" tilt="-17.72" pan="173.72"/>
+      <hotspot url="{node16}" description="" id="Point01" title="加药控制室" skinid="ht_node" target="$fwd" tilt="-7.08" pan="10.9343"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node16">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/加药控制室/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:21 17:15:38" source="" comment="" description="" info="" copyright="" longitude="106.073103" title="" tags="修图" latitude="29.870547" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node13}" description="" id="Point01" title="加氯车间" skinid="ht_node" target="$fwd" tilt="-23.92" pan="120.95"/>
+      <hotspot url="{node14}" description="" id="Point02" title="加药车间" skinid="ht_node" target="$fwd" tilt="-23.78" pan="137.54"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node13">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/加氯车间/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:20 17:18:56" source="" comment="" description="" info="" copyright="" longitude="106.073147" title="" tags="修图" latitude="29.870236" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node16}" description="" id="Point01" title="加药控制室" skinid="ht_node" target="$fwd" tilt="-1.5" pan="-5.91568"/>
+      <hotspot url="{node15}" description="" id="Point04" title="加药加氯间" skinid="ht_node" target="$fwd" tilt="0" pan="22.0181"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node15">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/加药加氯间/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:20 17:22:43" source="" comment="" description="" info="" copyright="" longitude="106.073050" title="" tags="修图" latitude="29.870444" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node6}" description="" id="Point01" title="二期沉淀池3" skinid="ht_node" target="$fwd" tilt="-43.68" pan="-90.04"/>
+      <hotspot url="{node13}" description="" id="Point02" title="加氯车间" skinid="ht_node" target="$fwd" tilt="-28.99" pan="20.51"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node6">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/二期沉淀池3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:20 16:26:22" source="" comment="" description="" info="" copyright="" longitude="106.072492" title="" tags="修图" latitude="29.869461" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node5}" description="" id="Point01" title="二期沉淀池2" skinid="ht_node" target="$fwd" tilt="0.47" pan="-49.81"/>
+      <hotspot url="{node15}" description="" id="Point06" title="加药加氯间" skinid="ht_node" target="$fwd" tilt="0" pan="-26.2082"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node5">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/二期沉淀池2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="2018:12:20 16:06:40" source="" comment="" description="" info="" copyright="" longitude="106.072492" title="" tags="修图" latitude="29.869711" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node6}" description="" id="Point01" title="二期沉淀池3" skinid="ht_node" target="$fwd" tilt="-2.81" pan="-91.76"/>
+      <hotspot url="{node4}" description="" id="Point02" title="二期沉淀池1" skinid="ht_node" target="$fwd" tilt="-6.06" pan="88.91"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelingpitch="0" overlap="1" levelingroll="0" height="1344" width="1344" levelbias="0.400" leveltileurl="Tiles/二期沉淀池1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" leveltilesize="510">
+      <level height="1344" width="1344" preload="0" predecode="0"/>
+      <level height="672" width="672" preload="0" predecode="0"/>
+      <level height="336" width="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="" source="" comment="" description="" info="" copyright="" longitude="" title="" tags="修图" latitude="" author=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" borderalpha="1" wordwrap="1" width="180" border="1" borderradius="1" enabled="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" background="1"/>
+      <polystyle borderalpha="1" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node5}" description="" id="Point01" title="二期沉淀池2" skinid="ht_node" target="$fwd" tilt="-4.81" pan="13.99"/>
+      <hotspot url="{node21}" description="" id="Point01" title="停车场" skinid="ht_node" target="$fwd" tilt="-10.18" pan="-150.535"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0" zoomin="0" softedge="0" blendcolor="0x000000"/>
+    <control lockedwheel="0" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" hideabout="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" lockedmouse="0" speedwheel="1"/>
+  </panorama>
+</tour>
