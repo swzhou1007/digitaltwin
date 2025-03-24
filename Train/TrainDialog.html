@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 63.5%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="bookmark" href="./favicon.ico" />
+    <title>数字孪生平台</title>
+
+    <script src="../Frontend/plugins/jquery/jquery-3.3.1.min.js"></script>
+    <script src="Build/Cesium/Cesium.js"></script>
+
+    <link href="../Frontend/pescoui/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../Frontend/pescoui/css/list.css" rel="stylesheet" />
+    <link href="../Frontend/pescoui/css/form.css" rel="stylesheet" />
+    <link href="../Frontend/pescoui/css/main.css" rel="stylesheet" />
+    <link href="../Frontend/pescoui/css/theme.css" rel="stylesheet" />
+    <link href="TrainDialog.css" rel="stylesheet" />
+
+    <script src="../Frontend/pescoui/js/theme.js"></script>
+    <script src="../Frontend/plugins/echarts/echarts.js"></script>
+    <script src="../Frontend/pescoui/js/global.js"></script>
+    <script src="../Frontend/plugins/dialog/dialog.js"></script>
+    <!-- 滑块插件引入 -->
+    <link href="../Frontend/plugins/slider/slider.css" rel="stylesheet">
+    <script src="../Frontend/plugins/slider/slider.js"></script>
+    <script src="TrainDialog.js"></script>
+    <script src="BindEvent.js"></script>
+    <script src="Location.js"></script>
+</head>
+
+<body class=" " id="body ">
+
+    <div class="lvchichongxi" id="div-1">
+        <div class="train-page-btn lvchichongxi-btn-yuanchengjiudi " id="lvchiyuanchengjiudi"></div>
+        <div class="train-page-btn lvchichongxi-btn-jinshuifa-kai  " id="lvchijinshuifakai">开进水阀</div>
+        <div class="train-page-btn lvchichongxi-btn-jinshuifa-banguan  " id="lvchijinshuifabanguan">半关</div>
+        <div class="train-page-btn lvchichongxi-btn-jinshuifa-guan  " id="lvchijinshuifaguan">关进水阀</div>
+        <div class="train-page-btn lvchichongxi-btn-paishuifa-kai  " id="lvchipaishuifakai">开排水阀</div>
+        <div class="train-page-btn lvchichongxi-btn-paishuifa-guan  " id="lvchipaishuifaguan">关排水阀</div>
+        <div class="train-page-btn lvchichongxi-btn-qixifa-kai  " id="lvchiqixifakai">开气洗阀</div>
+        <div class="train-page-btn lvchichongxi-btn-qixifa-guan  " id="lvchiqixifaguan">关气洗阀</div>
+        <div class="train-page-btn lvchichongxi-btn-shuixifa-kai  " id="lvchishuixifakai">开水洗阀</div>
+        <div class="train-page-btn lvchichongxi-btn-shuixifa-guan " id="lvchishuixifaguan">关水洗阀</div>
+        <div class="train-page-btn lvchichongxi-btn-paiqifa-kai  " id="lvchipaiqifakai">开排气阀</div>
+        <div class="train-page-btn lvchichongxi-btn-paiqifa-guan " id="lvchipaiqifaguan">关排气阀</div>
+        <div class="train-page-btn lvchichongxi-btn-shoudong  " id="lvchishoudong">手动</div>
+        <div class="train-page-btn lvchichongxi-btn-zidong " id="lvchizidong">自动</div>
+    </div>
+
+    <div class="fanchongxifamenkongzhixiang " id="div-2">
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-fengji-xianchang-1 " id="lvchikongzhixiangfengjifaxianchangyaokong1"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-fengjikai-1 " id="lvchikongzhixiangfengjifakai1"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-fengjiguan-1" id="lvchikongzhixiangfengjifaguan1"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-fengji-xianchang-2 " id="lvchikongzhixiangfengjifaxianchangyaokong2"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-fengjikai-2 " id="lvchikongzhixiangfengjifakai2"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-fengjiguan-2" id="lvchikongzhixiangfengjifaguan2"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-shuibeng-xianchang-1 " id="lvchikongzhixiangshuibengfaxianchangyaokong1"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-shuibengkai-1 " id="lvchikongzhixiangshuibengfakai1"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-shuibengguan-1" id="lvchikongzhixiangshuibengfaguan1"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-shuibeng-xianchang-2 " id="lvchikongzhixiangshuibengfaxianchangyaokong2"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-shuibengkai-2 " id="lvchikongzhixiangshuibengfakai2"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-shuibengguan-2" id="lvchikongzhixiangshuibengfaguan2"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-shuibeng-xianchang-3 " id="lvchikongzhixiangshuibengfaxianchangyaokong3"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-shuibengkai-3 " id="lvchikongzhixiangshuibengfakai3"></div>
+        <div class="train-page-btn fanchongxifamenkongzhixiang-btn-shuibengguan-3" id="lvchikongzhixiangshuibengfaguan3"></div>
+    </div>
+    <div class="fanchongxifengji" id="div-3">
+        <div class="train-page-btn fanchongxifengji-btn-xianchang-1 " id="fanchongxifengjixianchangyaokong1"></div>
+        <div class="train-page-btn fanchongxifengji-btn-xianchang-2 " id="fanchongxifengjixianchangyaokong2"></div>
+    </div>
+    <div class="fanchongxishuibeng" id="div-4">
+        <div class="train-page-btn fanchongxishuibeng-btn-xianchang-1 " id="fanchongxishuibengxianchangyaokong1"></div>
+        <div class="train-page-btn fanchongxishuibeng-btn-xianchang-2 " id="fanchongxishuibengxianchangyaokong2"></div>
+        <div class="train-page-btn fanchongxishuibeng-btn-xianchang-3 " id="fanchongxishuibengxianchangyaokong3"></div>
+    </div>
+
+    <div class="wuninongsuochijiaobanqi" id="div-5">
+        <div class="train-page-btn wuninongsuochijiaobanqi-btn-shoudong " id="wuninongsuochijiaobanqishoudongzidong"></div>
+        <div class="train-page-btn wuninongsuochijiaobanqi-btn-qidong " id="wuninongsuochijiaobanqiqidong"></div>
+        <div class="train-page-btn wuninongsuochijiaobanqi-btn-tingzhi" id="wuninongsuochijiaobanqitingzhi"></div>
+        <div class="train-page-light wuninongsuochijiaobanqi-btn-yunxing" id="wuninongsuochijiaobanqiyunxing"></div>
+    </div>
+
+    <div class="wuninongsuoji1" id="div-6">
+        <div class="train-page-btn wuninongsuoji1-btn-shoudong " id="wuninongsuoji1shoudongzidong"></div>
+        <div class="train-page-btn wuninongsuoji1-btn-qidong " id="wuninongsuoji1qidong"></div>
+        <div class="train-page-btn wuninongsuoji1-btn-tingzhi" id="wuninongsuoji1tingzhi"></div>
+        <div class="train-page-light wuninongsuoji1-btn-yunxing" id="wuninongsuoji1yunxing"></div>
+    </div>
+
+    <div class="wuninongsuoji2" id="div-7">
+        <div class="train-page-btn wuninongsuoji2-btn-shoudong " id="wuninongsuoji2shoudongzidong"></div>
+        <div class="train-page-btn wuninongsuoji2-btn-qidong " id="wuninongsuoji2qidong"></div>
+        <div class="train-page-btn wuninongsuoji2-btn-tingzhi" id="wuninongsuoji2tingzhi"></div>
+        <div class="train-page-light wuninongsuoji2-btn-yunxing" id="wuninongsuoji2yunxing"></div>
+    </div>
+
+    <div class="chendianchi1jiaobanqi" id="div-8">
+        <div class="train-page-btn chendianchi1jiaobanqi-btn-shoudongzidong " id="chendianchi1jiaobanqishoudongzidong"></div>
+        <div class="train-page-btn chendianchi1jiaobanqi1-btn-qidong " id="chendianchi1jiaobanqi1qidong"></div>
+        <div class="train-page-btn chendianchi1jiaobanqi1-btn-tingzhi" id="chendianchi1jiaobanqi1tingzhi"></div>
+        <div class="train-page-btn chendianchi1jiaobanqi2-btn-qidong " id="chendianchi1jiaobanqi2qidong"></div>
+        <div class="train-page-btn chendianchi1jiaobanqi2-btn-tingzhi" id="chendianchi1jiaobanqi2tingzhi"></div>
+    </div>
+
+    <div class="chendianchi1painiche" id="div-9">
+        <div class="train-page-btn chendianchi1painiche-btn-shoudongzidong " id="chendianchi1painicheshoudongzidong"></div>
+        <div class="train-page-btn chendianchi1painiche-btn-qianjin " id="chendianchi1painicheqianjin"></div>
+        <div class="train-page-btn chendianchi1painiche-btn-houtui" id="chendianchi1painichehoutui"></div>
+        <div class="train-page-btn chendianchi1painiche-btn-tingzhi" id="chendianchi1painichetingzhi"></div>
+        <div class="train-page-btn chendianchi1painiche-btn-dianchifakai" id="chendianchi1painichedianchifakai"></div>
+        <div class="train-page-btn chendianchi1painiche-btn-dianchifaguan" id="chendianchi1painichedianchifaguan"></div>
+        <div class="train-page-btn chendianchi1painiche-btn-qianshuibengkai" id="chendianchi1painicheqianshuibengkai"></div>
+        <div class="train-page-btn chendianchi1painiche-btn-qianshuibengguan" id="chendianchi1painicheqianshuibengguan"></div>
+    </div>
+
+    <div class="chendianchi2jiaobanqi" id="div-10">
+        <div class="train-page-btn chendianchi2jiaobanqi-btn-shoudongzidong " id="chendianchi2jiaobanqishoudongzidong"></div>
+        <div class="train-page-btn chendianchi2jiaobanqi-btn-qidong " id="chendianchi2jiaobanqiqidong"></div>
+        <div class="train-page-btn chendianchi2jiaobanqi-btn-tingzhi" id="chendianchi2jiaobanqitingzhi"></div>
+        <div class="train-page-light chendianchi2jiaobanqi-light-yunxing" id="chendianchi2jiaobanqiyunxing"></div>
+    </div>
+
+    <div class="chendianchi2painiche" id="div-11">
+        <div class="train-page-btn chendianchi2painiche-btn-jiudiyuancheng " id="chendianchi2painichejiudiyuancheng"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-shoudongzidong " id="chendianchi2painicheshoudongzidong"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-zhengzou " id="chendianchi2painichezhengzou"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-fanzou " id="chendianchi2painichefanzou"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-tingzhi" id="chendianchi2painichetingzhi"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-zhenkongbengqidong1 " id="chendianchi2painichezhenkongbengqidong1"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-zhenkongbengqidong2 " id="chendianchi2painichezhenkongbengqidong2"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-zhenkongbengtingzhi1 " id="chendianchi2painichezhenkongbengtingzhi1"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-zhenkongbengtingzhi2 " id="chendianchi2painichezhenkongbengtingzhi2"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-zhenkongfaqidong1 " id="chendianchi2painichezhenkongfaqidong1"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-zhenkongfaqidong2 " id="chendianchi2painichezhenkongfaqidong2"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-zhenkongfatingzhi1 " id="chendianchi2painichezhenkongfatingzhi1"></div>
+        <div class="train-page-btn chendianchi2painiche-btn-zhenkongfatingzhi2 " id="chendianchi2painichezhenkongfatingzhi2"></div>
+
+        <div class="train-page-light chendianchi2painiche-light-zhengzou " id="chendianchi2painichezhengzouyunxing"></div>
+        <div class="train-page-light chendianchi2painiche-light-fanzou " id="chendianchi2painichefanzouyunxing"></div>
+        <div class="train-page-light  chendianchi2painiche-light-zhenkongbeng1 " id="chendianchi2painichezhenkongbeng1yunxing"></div>
+        <div class=" train-page-light chendianchi2painiche-light-zhenkongbeng2 " id="chendianchi2painichezhenkongbeng2yunxing"></div>
+        <div class=" train-page-light chendianchi2painiche-light-zhenkongfa1 " id="chendianchi2painichezhenkongfa1yunxing"></div>
+        <div class="train-page-light chendianchi2painiche-light-zhenkongfa2 " id="chendianchi2painichezhenkongfa2yunxing"></div>
+    </div>
+
+    <div class="yihaopainifakongzhixiang" id="div-12">
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-shoudongyaokong" id="yihaopainifakongzhixiangshoudongyaokong"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa1kai" id="yihaopainifakongzhixiangpainifa1kai"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa2kai" id="yihaopainifakongzhixiangpainifa2kai"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa3kai" id="yihaopainifakongzhixiangpainifa3kai"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa4kai" id="yihaopainifakongzhixiangpainifa4kai"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa5kai" id="yihaopainifakongzhixiangpainifa5kai"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa6kai" id="yihaopainifakongzhixiangpainifa6kai"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa1guan" id="yihaopainifakongzhixiangpainifa1guan"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa2guan" id="yihaopainifakongzhixiangpainifa2guan"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa3guan" id="yihaopainifakongzhixiangpainifa3guan"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa4guan" id="yihaopainifakongzhixiangpainifa4guan"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa5guan" id="yihaopainifakongzhixiangpainifa5guan"></div>
+        <div class="train-page-btn yihaopainifakongzhixiang-btn-painifa6guan" id="yihaopainifakongzhixiangpainifa6guan"></div>
+    </div>
+
+    <div class="erhaopainifakongzhixiang" id="div-13">
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-shoudongyaokong" id="erhaopainifakongzhixiangshoudongyaokong"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa1kai" id="erhaopainifakongzhixiangpainifa1kai"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa2kai" id="erhaopainifakongzhixiangpainifa2kai"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa3kai" id="erhaopainifakongzhixiangpainifa3kai"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa4kai" id="erhaopainifakongzhixiangpainifa4kai"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa5kai" id="erhaopainifakongzhixiangpainifa5kai"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa6kai" id="erhaopainifakongzhixiangpainifa6kai"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa1guan" id="erhaopainifakongzhixiangpainifa1guan"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa2guan" id="erhaopainifakongzhixiangpainifa2guan"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa3guan" id="erhaopainifakongzhixiangpainifa3guan"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa4guan" id="erhaopainifakongzhixiangpainifa4guan"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa5guan" id="erhaopainifakongzhixiangpainifa5guan"></div>
+        <div class="train-page-btn erhaopainifakongzhixiang-btn-painifa6guan" id="erhaopainifakongzhixiangpainifa6guan"></div>
+    </div>
+
+    <div class="sanhaopainifakongzhixiang" id="div-14">
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong1" id="sanhaopainifakongzhixiangshoudongyaokong1"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai1" id="sanhaopainifakongzhixiangkai1"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan1" id="sanhaopainifakongzhixiangguan1"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong2" id="sanhaopainifakongzhixiangshoudongyaokong2"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai2" id="sanhaopainifakongzhixiangkai2"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan2" id="sanhaopainifakongzhixiangguan2"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong3" id="sanhaopainifakongzhixiangshoudongyaokong3"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai3" id="sanhaopainifakongzhixiangkai3"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan3" id="sanhaopainifakongzhixiangguan3"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong4" id="sanhaopainifakongzhixiangshoudongyaokong4"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai4" id="sanhaopainifakongzhixiangkai4"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan4" id="sanhaopainifakongzhixiangguan4"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong5" id="sanhaopainifakongzhixiangshoudongyaokong5"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai5" id="sanhaopainifakongzhixiangkai5"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan5" id="sanhaopainifakongzhixiangguan5"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong6" id="sanhaopainifakongzhixiangshoudongyaokong6"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai6" id="sanhaopainifakongzhixiangkai6"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan6" id="sanhaopainifakongzhixiangguan6"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong7" id="sanhaopainifakongzhixiangshoudongyaokong7"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai7" id="sanhaopainifakongzhixiangkai7"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan7" id="sanhaopainifakongzhixiangguan7"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong8" id="sanhaopainifakongzhixiangshoudongyaokong8"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai8" id="sanhaopainifakongzhixiangkai8"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan8" id="sanhaopainifakongzhixiangguan8"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong9" id="sanhaopainifakongzhixiangshoudongyaokong9"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai9" id="sanhaopainifakongzhixiangkai9"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan9" id="sanhaopainifakongzhixiangguan9"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong10" id="sanhaopainifakongzhixiangshoudongyaokong10"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai10" id="sanhaopainifakongzhixiangkai10"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan10" id="sanhaopainifakongzhixiangguan10"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong11" id="sanhaopainifakongzhixiangshoudongyaokong11"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai11" id="sanhaopainifakongzhixiangkai11"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan11" id="sanhaopainifakongzhixiangguan11"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong12" id="sanhaopainifakongzhixiangshoudongyaokong12"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai12" id="sanhaopainifakongzhixiangkai12"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan12" id="sanhaopainifakongzhixiangguan12"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong13" id="sanhaopainifakongzhixiangshoudongyaokong13"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai13" id="sanhaopainifakongzhixiangkai13"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan13" id="sanhaopainifakongzhixiangguan13"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong14" id="sanhaopainifakongzhixiangshoudongyaokong14"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai14" id="sanhaopainifakongzhixiangkai14"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan14" id="sanhaopainifakongzhixiangguan14"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong15" id="sanhaopainifakongzhixiangshoudongyaokong15"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai15" id="sanhaopainifakongzhixiangkai15"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan15" id="sanhaopainifakongzhixiangguan15"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong16" id="sanhaopainifakongzhixiangshoudongyaokong16"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai16" id="sanhaopainifakongzhixiangkai16"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan16" id="sanhaopainifakongzhixiangguan16"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong17" id="sanhaopainifakongzhixiangshoudongyaokong17"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai17" id="sanhaopainifakongzhixiangkai17"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan17" id="sanhaopainifakongzhixiangguan17"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong18" id="sanhaopainifakongzhixiangshoudongyaokong18"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai18" id="sanhaopainifakongzhixiangkai18"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan18" id="sanhaopainifakongzhixiangguan18"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong19" id="sanhaopainifakongzhixiangshoudongyaokong19"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai19" id="sanhaopainifakongzhixiangkai19"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan19" id="sanhaopainifakongzhixiangguan19"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-shoudongyaokong20" id="sanhaopainifakongzhixiangshoudongyaokong20"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-kai20" id="sanhaopainifakongzhixiangkai20"></div>
+        <div class="train-page-btn sanhaopainifakongzhixiang-btn-guan20" id="sanhaopainifakongzhixiangguan20"></div>
+    </div>
+
+    <div class="chouyaobengkongzhixiang" id="div-15">
+        <div class="train-page-btn chouyaobengkongzhixiang-btn-shoudongzidong" id="chouyaobengkongzhixiangshoudongzidong"></div>
+        <div class="train-page-btn chouyaobengkongzhixiang-btn-qiehuan" id="chouyaobengkongzhixiangqiehuan"></div>
+
+        <div class="train-page-btn chouyaobengkongzhixiang-btn-qidong1" id="chouyaobengkongzhixiangqidong1"></div>
+        <div class="train-page-btn chouyaobengkongzhixiang-btn-tingzhi1" id="chouyaobengkongzhixiangtingzhi1"></div>
+        <div class=" train-page-light chouyaobengkongzhixiang-light-yunxing1" id="chouyaobengkongzhixiangyunxing1"></div>
+
+        <div class="train-page-btn chouyaobengkongzhixiang-btn-qidong2" id="chouyaobengkongzhixiangqidong2"></div>
+        <div class="train-page-btn chouyaobengkongzhixiang-btn-tingzhi2" id="chouyaobengkongzhixiangtingzhi2"></div>
+        <div class="train-page-light  chouyaobengkongzhixiang-light-yunxing2" id="chouyaobengkongzhixiangyunxing2"></div>
+    </div>
+
+    <div class="jiayaojiankongzhixiang" id="div-16">
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng1" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng1"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai1" id="jiayaojiankongzhixiangdiandongqiufakai1"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan1" id="jiayaojiankongzhixiangdiandongqiufaguan1"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng2" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng2"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai2" id="jiayaojiankongzhixiangdiandongqiufakai2"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan2" id="jiayaojiankongzhixiangdiandongqiufaguan2"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng3" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng3"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai3" id="jiayaojiankongzhixiangdiandongqiufakai3"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan3" id="jiayaojiankongzhixiangdiandongqiufaguan3"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng4" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng4"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai4" id="jiayaojiankongzhixiangdiandongqiufakai4"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan4" id="jiayaojiankongzhixiangdiandongqiufaguan4"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng5" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng5"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai5" id="jiayaojiankongzhixiangdiandongqiufakai5"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan5" id="jiayaojiankongzhixiangdiandongqiufaguan5"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng6" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng6"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai6" id="jiayaojiankongzhixiangdiandongqiufakai6"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan6" id="jiayaojiankongzhixiangdiandongqiufaguan6"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng7" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng7"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai7" id="jiayaojiankongzhixiangdiandongqiufakai7"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan7" id="jiayaojiankongzhixiangdiandongqiufaguan7"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng8" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng8"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai8" id="jiayaojiankongzhixiangdiandongqiufakai8"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan8" id="jiayaojiankongzhixiangdiandongqiufaguan8"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng9" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng9"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai9" id="jiayaojiankongzhixiangdiandongqiufakai9"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan9" id="jiayaojiankongzhixiangdiandongqiufaguan9"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng10" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng10"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai10" id="jiayaojiankongzhixiangdiandongqiufakai10"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan10" id="jiayaojiankongzhixiangdiandongqiufaguan10"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng11" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng11"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai11" id="jiayaojiankongzhixiangdiandongqiufakai11"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan11" id="jiayaojiankongzhixiangdiandongqiufaguan11"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufabendiyuancheng12" id="jiayaojiankongzhixiangdiandongqiufabendiyuancheng12"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufakai12" id="jiayaojiankongzhixiangdiandongqiufakai12"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-diandongqiufaguan12" id="jiayaojiankongzhixiangdiandongqiufaguan12"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-jiliangbengbendiyuancheng3" id="jiayaojiankongzhixiangjiliangbengbendiyuancheng3"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-jiliangbengkai3" id="jiayaojiankongzhixiangjiliangbengkai3"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-jiliangbengguan3" id="jiayaojiankongzhixiangjiliangbengguan3"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-jiliangbengbendiyuancheng4" id="jiayaojiankongzhixiangjiliangbengbendiyuancheng4"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-jiliangbengkai4" id="jiayaojiankongzhixiangjiliangbengkai4"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-jiliangbengguan4" id="jiayaojiankongzhixiangjiliangbengguan4"></div>
+
+        <div class="train-page-light  jiayaojiankongzhixiang-btn-bianpinqiyunxing1" id="jiayaojiankongzhixiangbianpinqiyunxing1"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-bianpinqidakaiguanbi1" id="jiayaojiankongzhixiangbianpinqidakaiguanbi1"></div>
+
+        <div class=" train-page-light jiayaojiankongzhixiang-btn-bianpinqiyunxing2" id="jiayaojiankongzhixiangbianpinqiyunxing2"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-bianpinqidakaiguanbi2" id="jiayaojiankongzhixiangbianpinqidakaiguanbi2"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-zixibengbendiyuancheng1" id="jiayaojiankongzhixiangzixibengbendiyuancheng1"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-zixibengkai1" id="jiayaojiankongzhixiangzixibengkai1"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-zixibengguan1" id="jiayaojiankongzhixiangzixibengguan1"></div>
+
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-zixibengbendiyuancheng2" id="jiayaojiankongzhixiangzixibengbendiyuancheng2"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-zixibengkai2" id="jiayaojiankongzhixiangzixibengkai2"></div>
+        <div class="train-page-btn jiayaojiankongzhixiang-btn-zixibengguan2" id="jiayaojiankongzhixiangzixibengguan2"></div>
+
+    </div>
+    <div class="yihaosongshuibianpingui" id="div-17">
+        <div class="train-page-btn yihaosongshuibianpingui-btn-xianchangyaokong" id="yihaosongshuibianpinguixianchangyaokong"></div>
+        <div class="train-page-btn yihaosongshuibianpingui-btn-kai" id="yihaosongshuibianpinguikai"></div>
+        <div class="train-page-btn yihaosongshuibianpingui-btn-guan" id="yihaosongshuibianpinguiguan"></div>
+        <div class="train-page-light  yihaosongshuibianpingui-light-yunxing" id="yihaosongshuibianpinguiyunxing"></div>
+    </div>
+    <div class="erhaosongshuibianpingui" id="div-18">
+        <div class="train-page-btn erhaosongshuibianpingui-btn-xianchangyaokong" id="erhaosongshuibianpinguixianchangyaokong"></div>
+        <div class="train-page-btn erhaosongshuibianpingui-btn-kai" id="erhaosongshuibianpinguikai"></div>
+        <div class="train-page-btn erhaosongshuibianpingui-btn-guan" id="erhaosongshuibianpinguiguan"></div>
+        <div class="train-page-light  erhaosongshuibianpingui-light-yunxing" id="erhaosongshuibianpinguiyunxing"></div>
+    </div>
+    <div class="sanhaosongshuibianpingui" id="div-19">
+        <div class="train-page-btn sanhaosongshuibianpingui-btn-xianchangyaokong" id="sanhaosongshuibianpinguixianchangyaokong"></div>
+        <div class="train-page-btn sanhaosongshuibianpingui-btn-kai" id="sanhaosongshuibianpinguikai"></div>
+        <div class="train-page-btn sanhaosongshuibianpingui-btn-guan" id="sanhaosongshuibianpinguiguan"></div>
+        <div class="train-page-light  sanhaosongshuibianpingui-light-yunxing" id="sanhaosongshuibianpinguiyunxing"></div>
+    </div>
+    <div class="sihaosongshuibianpingui" id="div-20">
+        <div class="train-page-btn sihaosongshuibianpingui-btn-xianchangyaokong" id="sihaosongshuibianpinguixianchangyaokong"></div>
+        <div class="train-page-btn sihaosongshuibianpingui-btn-kai" id="sihaosongshuibianpinguikai"></div>
+        <div class="train-page-btn sihaosongshuibianpingui-btn-guan" id="sihaosongshuibianpinguiguan"></div>
+        <div class="train-page-light  sihaosongshuibianpingui-light-yunxing" id="sihaosongshuibianpinguiyunxing"></div>
+    </div>
+
+    <div class="lvchiqiehuanji1" id="div-21">
+        <div class="train-page-btn lvchiqiehuanji1-btn-kai" id="lvchiqiehuanji1kai"></div>
+        <div class="train-page-btn lvchiqiehuanji1-btn-guan" id="lvchiqiehuanji1guan"></div>
+    </div>
+    <div class="lvchiqiehuanji2" id="div-22">
+        <div class="train-page-btn lvchiqiehuanji2-btn-kai" id="lvchiqiehuanji2kai"></div>
+        <div class="train-page-btn lvchiqiehuanji2-btn-guan" id="lvchiqiehuanji2guan"></div>
+    </div>
+
+    <div class="lvchiganzaoji1" id="div-23">
+        <div class="train-page-light lvchiganzaoji1-light-kaiguan" id="lvchiganzaoji1kaiguan"></div>
+        <div class="train-page-btn lvchiganzaoji1-btn-kai" id="lvchiganzaoji1kai">打开</div>
+        <div class="train-page-btn lvchiganzaoji1-btn-guan" id="lvchiganzaoji1guan">关闭</div>
+    </div>
+    <div class="lvchiganzaoji2" id="div-24">
+        <div class="train-page-light lvchiganzaoji2-light-kaiguan" id="lvchiganzaoji2kaiguan"></div>
+        <div class="train-page-btn lvchiganzaoji2-btn-kai" id="lvchiganzaoji2kai">打开</div>
+        <div class="train-page-btn lvchiganzaoji2-btn-guan" id="lvchiganzaoji2guan">关闭</div>
+    </div>
+
+    <div class="qingshuichijialvfamen" id="div-25">
+        <div class="train-page-light qingshuichijialvfamen-light-kaiguan" id="qingshuichijialvfamenkaiguan"></div>
+        <div class="train-page-btn qingshuichijialvfamen-btn-kai" id="qingshuichijialvfamenkai">打开</div>
+        <div class="train-page-btn qingshuichijialvfamen-btn-guan" id="qingshuichijialvfamenguan">关闭</div>
+    </div>
+
+    <div class="jiayabengfamen" id="div-26">
+        <div class="train-page-light jiayabengfamen-light-kaiguan" id="jiayabengfamenkaiguan"></div>
+        <div class="train-page-btn jiayabengfamen-btn-kai" id="jiayabengfamenkai">打开</div>
+        <div class="train-page-btn jiayabengfamen-btn-guan" id="jiayabengfamenguan">关闭</div>
+    </div>
+
+    <div class="jiayaojianzixibengfamen1" id="div-27">
+        <div class="train-page-light jiayaojianzixibengfamen1-light-kaiguan" id="jiayaojianzixibengfamen1kaiguan"></div>
+        <div class="train-page-btn jiayaojianzixibengfamen1-btn-kai" id="jiayaojianzixibengfamen1kai">打开</div>
+        <div class="train-page-btn jiayaojianzixibengfamen1-btn-guan" id="jiayaojianzixibengfamen1guan">关闭</div>
+    </div>
+
+    <div class="jiayaojianzixibengfamen2" id="div-28">
+        <div class="train-page-light jiayaojianzixibengfamen2-light-kaiguan" id="jiayaojianzixibengfamen2kaiguan"></div>
+        <div class="train-page-btn jiayaojianzixibengfamen2-btn-kai" id="jiayaojianzixibengfamen2kai">打开</div>
+        <div class="train-page-btn jiayaojianzixibengfamen2-btn-guan" id="jiayaojianzixibengfamen2guan">关闭</div>
+    </div>
+
+    <div class="jiayaojianpaiqifa" id="div-29">
+        <div class="train-page-light jiayaojianpaiqifa-light-kaiguan" id="jiayaojianpaiqifakaiguan"></div>
+        <div class="train-page-btn jiayaojianpaiqifa-btn-kai" id="jiayaojianpaiqifakai">打开</div>
+        <div class="train-page-btn jiayaojianpaiqifa-btn-guan" id="jiayaojianpaiqifaguan">关闭</div>
+    </div>
+
+    <div class="shuibenglianjiefa" id="div-30">
+        <div class="train-page-light shuibenglianjiefa-light-kaiguan" id="shuibenglianjiefakaiguan"></div>
+        <div class="train-page-btn shuibenglianjiefa-btn-kai" id="shuibenglianjiefakai">打开</div>
+        <div class="train-page-btn shuibenglianjiefa-btn-guan" id="shuibenglianjiefaguan">关闭</div>
+    </div>
+
+    <div class="shuibenglianjiefa2" id="div-47">
+        <div class="train-page-light shuibenglianjiefa2-light-kaiguan" id="shuibenglianjiefa2kaiguan"></div>
+        <div class="train-page-btn shuibenglianjiefa2-btn-kai" id="shuibenglianjiefa2kai">打开</div>
+        <div class="train-page-btn shuibenglianjiefa2-btn-guan" id="shuibenglianjiefa2guan">关闭</div>
+    </div>
+
+    <div class="jiayaobengfamen1" id="div-31">
+        <div class="train-page-light jiayaobengfamen1-light-kaiguan" id="jiayaobengfamen1kaiguan"></div>
+        <div class="train-page-btn jiayaobengfamen1-btn-kai" id="jiayaobengfamen1kai">打开</div>
+        <div class="train-page-btn jiayaobengfamen1-btn-guan" id="jiayaobengfamen1guan">关闭</div>
+    </div>
+
+    <div class="jiayaobengfamen2" id="div-32">
+        <div class="train-page-light jiayaobengfamen2-light-kaiguan" id="jiayaobengfamen2kaiguan"></div>
+        <div class="train-page-btn jiayaobengfamen2-btn-kai" id="jiayaobengfamen2kai">打开</div>
+        <div class="train-page-btn jiayaobengfamen2-btn-guan" id="jiayaobengfamen2guan">关闭</div>
+    </div>
+
+    <div class="shuichongbengkongzhigui" id="div-33">
+        <div class="train-page-btn shuichongbengkongzhiguibeng1-btn-kai" id="shuichongbeng1kai"></div>
+        <div class="train-page-btn shuichongbengkongzhiguibeng1-btn-guan" id="shuichongbeng1guan"></div>
+        <div class="train-page-btn shuichongbengkongzhiguibeng2-btn-kai" id="shuichongbeng2kai"></div>
+        <div class="train-page-btn shuichongbengkongzhiguibeng2-btn-guan" id="shuichongbeng2guan"></div>
+    </div>
+
+    <div class="gaoyasongshuibeng" id="div-34">
+        <div class="train-page-btn gaoyasongshuibeng-btn-kai" id="gaoyasongshuibengkai"></div>
+        <div class="train-page-btn gaoyasongshuibeng-btn-guan" id="gaoyasongshuibengguan"></div>
+        <div class="train-page-btn gaoyasongshuibeng-btn-xianchangjiudi" id="gaoyasongshuibengxianchangjiudi"></div>
+        <div class="train-page-light gaoyasongshuibeng-light-yunxing" id="gaoyasongshuibengyunxing"></div>
+        <div class="train-page-light gaoyasongshuibeng-light-tingzhi" id="gaoyasongshuibengtingzhi"></div>
+    </div>
+
+    <div class="gaoyasongshuibengfamen" id="div-35">
+        <div class="train-page-btn gaoyasongshuibengfamen-btn-kai" id="gaoyasongshuibengfamenkai"></div>
+        <div class="train-page-btn gaoyasongshuibengfamen-btn-guan" id="gaoyasongshuibengfamenguan"></div>
+        <div class="train-page-btn gaoyasongshuibengfamen-btn-xianchangjiudi" id="gaoyasongshuibengfamenxianchangjiudi"></div>
+        <div class="train-page-light gaoyasongshuibengfamen-light-yunxing" id="gaoyasongshuibengfamenyunxing"></div>
+        <div class="train-page-light gaoyasongshuibengfamen-light-tingzhi" id="gaoyasongshuibengfamentingzhi"></div>
+    </div>
+
+    <div class="ganzaoji2famen1" id="div-36">
+        <div class="train-page-light ganzaoji2famen1-light-kaiguan" id="ganzaoji2famen1kaiguan"></div>
+        <div class="train-page-btn ganzaoji2famen1-btn-kai" id="ganzaoji2famen1kai">打开</div>
+        <div class="train-page-btn ganzaoji2famen1-btn-guan" id="ganzaoji2famen1guan">关闭</div>
+    </div>
+    <div class="ganzaoji2famen2" id="div-37">
+        <div class="train-page-light ganzaoji2famen2-light-kaiguan" id="ganzaoji2famen2kaiguan"></div>
+        <div class="train-page-btn ganzaoji2famen2-btn-kai" id="ganzaoji2famen2kai">打开</div>
+        <div class="train-page-btn ganzaoji2famen2-btn-guan" id="ganzaoji2famen2guan">关闭</div>
+    </div>
+
+    <div class="ganzaoji2paiqi" id="div-38">
+        <div class="train-page-light ganzaoji2paiqi-light-kaiguan" id="ganzaoji2paiqikaiguan"></div>
+        <div class="train-page-btn ganzaoji2paiqi-btn-kai" id="ganzaoji2paiqikai">打开</div>
+        <div class="train-page-btn ganzaoji2paiqi-btn-guan" id="ganzaoji2paiqiguan">关闭</div>
+    </div>
+
+
+    <div class="ganzaoji1famen1" id="div-39">
+        <div class="train-page-light ganzaoji1famen1-light-kaiguan" id="ganzaoji1famen1kaiguan"></div>
+        <div class="train-page-btn ganzaoji1famen1-btn-kai" id="ganzaoji1famen1kai">打开</div>
+        <div class="train-page-btn ganzaoji1famen1-btn-guan" id="ganzaoji1famen1guan">关闭</div>
+    </div>
+    <div class="ganzaoji1famen2" id="div-40">
+        <div class="train-page-light ganzaoji1famen2-light-kaiguan" id="ganzaoji1famen2kaiguan"></div>
+        <div class="train-page-btn ganzaoji1famen2-btn-kai" id="ganzaoji1famen2kai">打开</div>
+        <div class="train-page-btn ganzaoji1famen2-btn-guan" id="ganzaoji1famen2guan">关闭</div>
+    </div>
+
+    <div class="ganzaoji1paiqi" id="div-41">
+        <div class="train-page-light ganzaoji1paiqi-light-kaiguan" id="ganzaoji1paiqikaiguan"></div>
+        <div class="train-page-btn ganzaoji1paiqi-btn-kai" id="ganzaoji1paiqikai">打开</div>
+        <div class="train-page-btn ganzaoji1paiqi-btn-guan" id="ganzaoji1paiqiguan">关闭</div>
+    </div>
+
+
+    <div class="houjialvfamen1" id="div-42">
+        <div class="train-page-light houjialvfamen1-light-kaiguan" id="houjialvfamen1kaiguan"></div>
+        <div class="train-page-btn houjialvfamen1-btn-kai" id="houjialvfamen1kai">打开</div>
+        <div class="train-page-btn houjialvfamen1-btn-guan" id="houjialvfamen1guan">关闭</div>
+    </div>
+
+    <div class="houjialvfamen2" id="div-43">
+        <div class="train-page-light houjialvfamen2-light-kaiguan" id="houjialvfamen2kaiguan"></div>
+        <div class="train-page-btn houjialvfamen2-btn-kai" id="houjialvfamen2kai">打开</div>
+        <div class="train-page-btn houjialvfamen2-btn-guan" id="houjialvfamen2guan">关闭</div>
+    </div>
+    <div class="houjialvfamen3" id="div-44">
+        <div class="train-page-light houjialvfamen3-light-kaiguan" id="houjialvfamen3kaiguan"></div>
+        <div class="train-page-btn houjialvfamen3-btn-kai" id="houjialvfamen3kai">打开</div>
+        <div class="train-page-btn houjialvfamen3-btn-guan" id="houjialvfamen3guan">关闭</div>
+    </div>
+    <div class="houjialvfamen4" id="div-45">
+        <div class="train-page-light houjialvfamen4-light-kaiguan" id="houjialvfamen4kaiguan"></div>
+        <div class="train-page-btn houjialvfamen4-btn-kai" id="houjialvfamen4kai">打开</div>
+        <div class="train-page-btn houjialvfamen4-btn-guan" id="houjialvfamen4guan">关闭</div>
+    </div>
+    <div class="houjialvfamen5" id="div-46">
+        <div class="train-page-light houjialvfamen5-light-kaiguan" id="houjialvfamen5kaiguan"></div>
+        <div class="train-page-btn houjialvfamen5-btn-kai" id="houjialvfamen5kai">打开</div>
+        <div class="train-page-btn houjialvfamen5-btn-guan" id="houjialvfamen5guan">关闭</div>
+    </div>
+
+</body>
+
+</html>

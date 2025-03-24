@@ -1,0 +1,306 @@
+* {
+    user-select: none;
+}
+
+.n-menuimg {
+    background-color: #fff;
+    border: #fff;
+    width: 36px;
+    height: 36px;
+    margin-left: 6px;
+    box-shadow: 0 3px 10px rgba(19, 50, 124, .1);
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    background-image: url(../Images/close-menu.svg);
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.n-menuimg:hover {
+    background-color: #fff;
+    border: #fff;
+    width: 36px;
+    height: 36px;
+    margin-left: 6px;
+    box-shadow: 0 3px 10px rgba(19, 50, 124, .1);
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    background-image: url(../Images/close-menu-hover.svg);
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.n-menuimg-active {
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    margin-left: 6px;
+    box-shadow: 0 3px 10px rgba(19, 50, 124, .1);
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    background-image: url(../Images/open-menu.svg);
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.n-menulist {
+    float: left;
+    background-color: #fff;
+    border-radius: 3px;
+    height: 36px;
+    /* box-shadow: 0.1rem 0.2rem 0.5rem #2B2B2B; */
+    transition: width 2s;
+    -moz-transition: width 2s;
+    -webkit-transition: width 2s;
+    -o-transition: width 2s;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.n-menulistimg {
+    width: 34px;
+    height: 32px;
+    margin: 2px 4px;
+    float: right;
+    cursor: pointer;
+}
+
+.shuqian {
+    background: url(../Images/shuqian.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.shuqian:hover {
+    background: url(../Images/shuqian-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.shuqian-active {
+    background: url(../Images/shuqian-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.goujianshu {
+    background: url(../Images/goujianshu.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.goujianshu:hover {
+    background: url(../Images/goujianshu-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.goujianshu-active {
+    background: url(../Images/goujianshu-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.shuxing {
+    background: url(../Images/shuxing.svg) no-repeat;
+    background-position: center;
+    background-size: 24px;
+}
+
+.shuxing:hover {
+    background: url(../Images/shuxing-active.svg) no-repeat;
+    background-position: center;
+    background-size: 24px;
+}
+
+.shuxing-active {
+    background: url(../Images/shuxing-active.svg) no-repeat;
+    background-position: center;
+    background-size: 24px;
+}
+
+.touming {
+    background: url(../Images/touming.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.touming:hover {
+    background: url(../Images/touming-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.touming-active {
+    background: url(../Images/touming-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.yincang {
+    background: url(../Images/yincang.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.yincang:hover {
+    background: url(../Images/yincang-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.yincang-active {
+    background: url(../Images/yincang-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.messure {
+    background: url(../Images/messure.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.messure:hover {
+    background: url(../Images/messure-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.messure-active {
+    background: url(../Images/messure-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.xianding {
+    background: url(../Images/xianding.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.xianding:hover {
+    background: url(../Images/xianding-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.xianding-active {
+    background: url(../Images/xianding-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.xiankuang {
+    background: url(../Images/xiankuang.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.xiankuang:hover {
+    background: url(../Images/xiankuang-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.xiankuang-active {
+    background: url(../Images/xiankuang-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.fuwei {
+    background: url(../Images/home.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.fuwei:hover {
+    background: url(../Images/home-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.fuwei-active {
+    background: url(../Images/home-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.baozha {
+    background: url(../Images/baozha.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.baozha:hover {
+    background: url(../Images/baozha-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.baozha-active {
+    background: url(../Images/baozha-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.allview {
+    background: url(../Images/allview.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.allview:hover {
+    background: url(../Images/allview-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.allview-active {
+    background: url(../Images/allview-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.kaohe {
+    background: url(../Images/kaohe.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.kaohe:hover {
+    background: url(../Images/kaohe-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.kaohe-active {
+    background: url(../Images/kaohe-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.peixun {
+    background: url(../Images/peixun.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.peixun:hover {
+    background: url(../Images/peixun-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}
+
+.peixun-active {
+    background: url(../Images/peixun-active.svg) no-repeat;
+    background-position: center;
+    background-size: 22px;
+}

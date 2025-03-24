@@ -1,0 +1,91 @@
+.boom-input-wrapper {
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	/* border: 1px solid #fff; */
+	background-color: rgba(0, 0, 0, 0.15);
+	width: 522px;
+	height: 98px;
+	border-radius: 4px;
+	margin: 0 auto;
+	padding: 0 20px;
+	/* color:#aa5500; */
+}
+
+.boom-input {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.boom-display {
+	position: absolute;
+	bottom: 30px;
+	z-index: 100;
+	color: white;
+	border-radius: 5px;
+	height: 98px;
+	line-height: 30px;
+	text-align: center;
+	width: 100%;
+	cursor: pointer;
+	display: none;
+}
+
+.boom-input-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.boom-input {
+	-webkit-appearance: none;
+	width: 374px;
+	height: 5px;
+	background-color: rgba(255, 255, 255, 0.3);
+	position: relative;
+	margin: 0 15px;
+}
+
+.boom-input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	cursor: default;
+	top: 0;
+	height: 20px;
+	width: 6px;
+	border-radius: 1px;
+	transform: translateY(0px);
+	background: #fff;
+}
+
+.boom-input-minus {
+	width: 26px;
+	height: 26px;
+	background-image: url(../Images/zoom-out.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	/* background-size: 100% 100%; */
+}
+
+.boom-input-plus {
+	width: 26px;
+	height: 26px;
+	background-image: url(../Images/zoom-in.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	/* background-size: 100% 100%; */
+}
+
+.boom-input-closebtn {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	background: url(../Images/关闭.png) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}

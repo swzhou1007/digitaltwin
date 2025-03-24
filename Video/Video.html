@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>视频</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="x-rim-auto-match" content="none">
+	<link href="../Frontend/pescoui/css/main.css" rel="stylesheet" />
+	<link href="../Frontend/pescoui/css/WaterPic.css" rel="stylesheet">
+
+	<script src="../Frontend/plugins/jquery/jquery-1.10.2.min.js"></script>
+	<script src="../Frontend/pescoui/js/theme.js"></script>
+	<script src="../Frontend/pescoui/js/global.js"></script>
+	<script src="../Frontend/pescoui/ckplayer/ckplayer.js"></script>
+	<script src="../Frontend/pescoui/js/realvideo.js"></script>
+</head>
+
+<body>
+	<div id="background-ll">
+	</div>
+</body>
+
+</html>
+<script>
+	$(function () {
+		var src='./stream_3/stream_3_live.m3u8';
+		realvideo.setVideo(src);
+		Global.closeWaiting();
+	}
+	)
+</script>

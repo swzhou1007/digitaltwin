@@ -1,0 +1,133 @@
+.clip-pannel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 200px;
+	/* height: 222px; */
+	background-color: #eee;
+	border-radius: 3px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.clip-select{
+	width: 100%;
+	height: 100%;
+	padding-left: 5px;
+	cursor: pointer;
+}
+/* .pannel-title {
+	width: 100%;
+	position: relative;
+	height: 37.5px;
+	line-height: 37.5px;
+	padding-left: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.pannel-title span {
+	font-size: 16px;
+	color: #1071e2;
+}
+
+.pannel-close-btn {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 15px;
+	right: 8px;
+	cursor: pointer;
+	background: url(../Images/close.png) no-repeat;
+	background-position: center;
+}
+
+.pannel-body {
+	width: 100%;
+	background-color: #eee;
+	padding: 6px;
+	box-sizing: border-box;
+}
+
+.pannel-btn-wrapper {
+	width: 188px;
+	height: 44px;
+	background-color: #fff;
+	margin-bottom: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pannel-btn {
+	width: 176px;
+	height: 32px;
+	background-color: #fff;
+	border-color: #fff;
+	box-shadow: 0 3px 10px rgba(19, 50, 124, .1);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.pannel-btn-active {
+	width: 176px;
+	height: 32px;
+	background-color: #1071e2;
+	color: #fff;
+	box-shadow: 0 3px 10px rgba(19, 50, 124, .1);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.pannel-btn img {
+	display: block;
+	width: 17px;
+	height: 17px;
+	pointer-events: none;
+	margin-right: 10px;
+}
+
+.pannel-btn span {
+	display: block;
+	font-size: 14px;
+	pointer-events: none;
+}
+
+.pannel-btn-cancel {
+	background-color: #1071e2;
+	height: 32px;
+	line-height: 32px;
+	box-sizing: border-box;
+	width: 188px;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.pannel-btn-cancel:hover {
+	background-color: #348bf1;
+	border: 1px solid #fff;
+	height: 32px;
+	line-height: 30px;
+	box-sizing: border-box;
+	width: 188px;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 3px;
+}
+ */

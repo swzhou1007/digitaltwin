@@ -1,0 +1,284 @@
+{
+    "rows": [{
+            "questionIndex": "1",
+            "questionText": "滤池冲洗操作",
+            "questionguid": "a5aa4b84-542d-4416-8d84-cdfa71d45452",
+            "questiontype": "1",
+            "subsystemguid": "D695382F-22F8-4F43-8036-BC507CD12CC3",
+            "questionStep": [{
+                    "stepIndex": "1",
+                    "stepguid": "",
+                    "stepContent": "1. 关进水阀 调整开度为100% 等待水位下降 需要人工查看滤池液位 下降三 四格左右",
+                    "stepPoint": "",
+                    "nextStepTip": true,
+                    "nextStepTipContent": "水位已下降四格。"
+                },
+                {
+                    "stepIndex": "2",
+                    "stepguid": "",
+                    "stepContent": "2. 开排水阀",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "3",
+                    "stepguid": "",
+                    "stepContent": "3. 开气洗阀",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "4",
+                    "stepguid": "",
+                    "stepContent": "4. 反冲洗风机软启柜将一号风机设置为现场状态",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "5",
+                    "stepguid": "",
+                    "stepContent": "5. 反冲洗阀门控制箱将一号风机设置为现场",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "6",
+                    "stepguid": "",
+                    "stepContent": "6. 反冲洗阀门控制箱启动一号风机",
+                    "stepPoint": "",
+                    "nextStepTip": true,
+                    "nextStepTipContent": "风机已开启五分钟。"
+                },
+                {
+                    "stepIndex": "7",
+                    "stepguid": "",
+                    "stepContent": "7. 五分钟后水泵控制箱将一号水泵设置为现场",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "8",
+                    "stepguid": "",
+                    "stepContent": "8. 反冲洗阀门控制箱将一号水泵设置为现场",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "9",
+                    "stepguid": "",
+                    "stepContent": "9. 反冲洗阀门控制箱启动一号水泵",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "10",
+                    "stepguid": "",
+                    "stepContent": "10. 开水洗阀 此时为气水混冲",
+                    "stepPoint": "",
+                    "nextStepTip": true,
+                    "nextStepTipContent": "水洗阀已开启五分钟。"
+                },
+                {
+                    "stepIndex": "11",
+                    "stepguid": "",
+                    "stepContent": "11. 五分钟后反冲洗阀门控制箱关闭一号风机",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "12",
+                    "stepguid": "",
+                    "stepContent": "12. 关气洗阀",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "13",
+                    "stepguid": "",
+                    "stepContent": "13. 水泵控制箱将二号水泵设置为现场",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "14",
+                    "stepguid": "",
+                    "stepContent": "14. 反冲洗阀门控制箱将二号水泵设置为现场",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "15",
+                    "stepguid": "",
+                    "stepContent": "15. 反冲洗阀门控制箱启动二号水泵 此时两台水泵 为水冲",
+                    "stepPoint": "",
+                    "nextStepTip": true,
+                    "nextStepTipContent": "水泵已开启五分钟。"
+                },
+                {
+                    "stepIndex": "16",
+                    "stepguid": "",
+                    "stepContent": "16. 五分钟后关水洗阀",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "17",
+                    "stepguid": "",
+                    "stepContent": "17. 反冲洗阀门控制箱关闭一号水泵",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "18",
+                    "stepguid": "",
+                    "stepContent": "18. 反冲洗阀门控制箱关闭二号水泵",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "19",
+                    "stepguid": "",
+                    "stepContent": "19. 开排气阀",
+                    "stepPoint": "",
+                    "nextStepTip": true,
+                    "nextStepTipContent": "已人工查看滤池不冒泡。"
+                },
+                {
+                    "stepIndex": "20",
+                    "stepguid": "",
+                    "stepContent": "20. 人工查看滤池不冒泡后关排气阀",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                }
+            ],
+            "questionMarkers": [{
+                    "name": "滤池控制箱",
+                    "guid": "2F1383EA-7413-45D4-9BC5-6EEA69A2AAB1"
+                },
+                {
+                    "name": "反冲洗阀门控制箱",
+                    "guid": "3516DA21-0AFF-43C9-B20D-126D71ACC4B2"
+                },
+                {
+                    "name": "风机和水泵控制箱",
+                    "guid": "46D2290C-24C5-4484-B197-FBC9C79568AD"
+                }
+            ]
+        },
+        {
+            "questionIndex": "2",
+            "questionText": "污泥浓缩池操作",
+            "questionguid": "a5aa4b84-540d-4416-8d84-cdfa71d45452",
+            "questiontype": "1",
+            "subsystemguid": "D695382F-22F8-4F43-8036-BC507CD12CC3",
+            "questionStep": [{
+                    "stepIndex": "1",
+                    "stepguid": "",
+                    "stepContent": "1.将1号污泥浓缩机设置为手动",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "2",
+                    "stepguid": "",
+                    "stepContent": "2.启动1号污泥浓缩机",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "3",
+                    "stepguid": "",
+                    "stepContent": "3.将2号污泥浓缩机设置为手动",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "4",
+                    "stepguid": "",
+                    "stepContent": "4.启动2号污泥浓缩机",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "5",
+                    "stepguid": "",
+                    "stepContent": "5.将污泥浓缩池搅拌器设置为手动",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                },
+                {
+                    "stepIndex": "6",
+                    "stepguid": "",
+                    "stepContent": "6.启动污泥浓缩池搅拌器",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                }
+            ],
+            "questionMarkers": [{
+                    "name": "污泥浓缩池搅拌机",
+                    "guid": "2F1383EA-7413-45D4-9BC5-6EEA69A2AAB1"
+
+                },
+                {
+                    "name": "污泥浓缩机1",
+                    "guid": "2F1383EA-7413-45D4-9BC5-6EEA69A2AAB1"
+
+                },
+                {
+                    "name": "污泥浓缩机2",
+                    "guid": "2F1383EA-7413-45D4-9BC5-6EEA69A2AAB1"
+
+                }
+            ]
+        },
+        {
+            "questionIndex": "3",
+            "questionText": "沉淀池搅拌器操作",
+            "questionguid": "a5aa4184-540d-4416-8d84-cdfa71d45452",
+            "questiontype": "1",
+            "subsystemguid": "D695382F-22F8-4F43-8036-BC507CD12CC3",
+            "questionStep": [{
+                    "stepIndex": "1",
+                    "stepguid": "",
+                    "stepContent": "1. 关进水阀 调整开度为100% 等待水位下降 需要人工查看滤池液位 下降三 四格左右",
+                    "stepPoint": "",
+                    "nextStepTip": true,
+                    "nextStepTipContent": "水位已下降四格。"
+                },
+                {
+                    "stepIndex": "2",
+                    "stepguid": "",
+                    "stepContent": "2. 开排水阀",
+                    "stepPoint": "",
+                    "nextStepTip": false,
+                    "nextStepTipContent": ""
+                }
+            ],
+            "questionMarkers": [{
+                "name": "沉淀池搅拌器",
+                "guid": "2F1383EA-7413-45D4-9BC5-6EEA69A2AAB1"
+            }]
+        }
+    ]
+}

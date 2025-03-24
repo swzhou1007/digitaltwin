@@ -1,0 +1,365 @@
+.train-list {}
+.error-item{color: #d9534f;}
+.success-item{color: #229822;}
+.train-list-item {
+    min-height: 30px;
+    line-height: 25px;
+    margin: 6px 0;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    background-color: #fff;
+}
+
+.train-container {
+    display: none;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    pointer-events: none;
+    z-index: 10000;
+}
+
+.question-step-box {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    /* width: 280px; */
+    height: 585px;
+    pointer-events: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-step-box.step-box .dialog-fold-ctrl {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all .5s;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-step-box.step-box .question-step-title {
+    padding: 10px 60px 10px 20px;
+    min-height: 40px;
+    box-sizing: border-box;
+    background-color: rgb(255 255 255 / 80%);
+    cursor: text;
+}
+
+.question-btn-help {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.question-btn-help .fa {
+    font-size: 18px;
+    width: 24px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1071e2;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.question-step-content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 6px 6px 0 6px;
+    box-sizing: border-box;
+    flex: 1;
+    /* background: url(../images/train_bac.jpg) center center no-repeat; */
+    background-size: cover;
+}
+
+.question-step-content>li {
+    width: 100%;
+    height: 32px;
+    /* background-color: #fff; */
+    background-color: rgb(255 255 255 / 80%);
+    border-radius: 3px;
+    margin-bottom: 6px;
+    padding: 6px;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+
+.question-step-content>li .item {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+    display: block;
+}
+
+.step-close {
+    flex: none;
+    width: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../Images/close.png) center center no-repeat;
+    background-size: 10px 10px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.question-step-sys {
+    flex: none;
+    width: 100%;
+    height: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    padding: 6px;
+    margin-bottom: 3px;
+    background-color: rgb(255 255 255 / 80%);
+}
+
+.question-step-sys a {
+    color: #1071e2;
+    cursor: pointer;
+    font-size: 12px !important;
+    margin-right: 3px;
+}
+
+.question-step-sys span {
+    font-size: 12px !important;
+}
+
+.question-step-footer {
+    flex: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 0 6px;
+    background-color: rgb(255 255 255 / 80%);
+}
+
+.question-step-footer button {
+    background-color: #1071e2;
+    color: #fff;
+    display: none;
+    margin-left: 10px;
+    box-shadow: 0 0 10px 1px #dadada;
+}
+
+.question-step-footer button.active {
+    display: block;
+}
+
+.question-button {
+    cursor: pointer;
+    width: 90px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    height: 36px;
+    line-height: 35px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.question-step-box .dialog-fold {
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    width: 25px;
+    height: 40px;
+    box-shadow: -5px 0 6px 0 rgb(0 0 0 / 18%);
+    justify-content: center;
+    background-color: #fff;
+    color: #1071e2;
+    display: flex;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    transform: translateY(-20px);
+    cursor: pointer;
+    opacity: 0.3;
+    transition: opacity 5s;
+    padding-left: 4px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.question-dialog-box .dialog-fold .fa,
+.question-step-box .dialog-fold .fa {
+    font-size: 20px;
+    transform: rotateZ( 0deg);
+}
+
+.train-list {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    width: 300px;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    pointer-events: auto;
+}
+
+.train-list-body {
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 0 6px;
+    border-radius: 3px;
+    max-height: 548px;
+    overflow-y: auto;
+}
+
+.train-list-title {
+    width: 100%;
+    height: 37.5px;
+    line-height: 37.5px;
+    border-radius: 3px;
+    padding-left: 15px;
+    background-color: #fff;
+}
+
+.question-all-box.question-step-box.active {
+    display: flex;
+}
+
+.question-all-box.question-step-box {
+    display: none;
+    float: left;
+    z-index: 9999;
+}
+
+.question-step-box {
+    /* position: fixed;
+    top: 16%;
+    left: 6px;
+    border-radius: 3px;
+    height: 500px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238 238 238 / 80%); */
+}
+
+.question-step-title {
+    width: 300px;
+    border-radius: 3px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    flex: none;
+    font-weight: bold;
+    color: #1071e2;
+    cursor: move;
+}
+
+.question-step-search {
+    flex: none;
+    width: 300px;
+    padding: 6px 6px 0 6px;
+    box-sizing: border-box;
+}
+
+.question-step-search>div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 3px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.question-step-search .fa {
+    flex: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+}
+
+.question-step-search input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    font-size: 12px;
+}
+
+.question-step-search button {
+    flex: none;
+    width: 52px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+    background-color: #1071e2;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.question-step-content {
+    width: 300px;
+    height: 100%;
+    overflow: auto;
+    padding: 6px 6px 0 6px;
+    box-sizing: border-box;
+    flex: 1;
+    background: url(../images/train_bac.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.question-all-box .question-step-content>li.active {
+    display: flex;
+}
+
+.question-all-box li {
+    cursor: pointer;
+}
+
+.question-step-content>li {
+    width: 100%;
+    height: 32px;
+    /* background-color: #fff; */
+    background-color: rgb(255 255 255 / 80%);
+    border-radius: 3px;
+    margin-bottom: 6px;
+    padding: 6px;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+
+.question-all-box .question-step-content>li .question-item {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

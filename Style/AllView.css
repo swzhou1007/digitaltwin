@@ -1,0 +1,67 @@
+.all-view {
+	position: absolute;
+	
+	width: 100%;
+	height: 100%;
+	z-index: 100000;
+	background-color: #eeeeee;
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+	display: none;
+}
+
+.all-view-title {
+	width: 100%;
+	height: 37.5px;
+	line-height: 37.5px;
+	padding-left: 15px;
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.all-view-title span{
+	font-size: 16px;
+	color: #1071e2;
+}
+.all-view-body{
+	width: 100%;
+	height: calc(100% - 37.5px);
+	padding:8px
+}
+.all-view-close-btn{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 11px;
+	right: 8px;
+	cursor: pointer;
+	background: url(../Images/close.png) no-repeat;
+	background-position: center;
+}
+
+.all-view-max-btn{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 12px;
+	right: 30px;
+	cursor: pointer;
+	background: url(../Images/max.png) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	display: none;
+}
+
+.all-view-min-btn{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 12px;
+	right: 30px;
+	cursor: pointer;
+	background: url(../Images/min.png) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	
+}

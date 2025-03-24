@@ -1,0 +1,2498 @@
+{
+    "Result": true,
+    "KeyValue": {
+        "rows": [{
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchiyuanchengjiudi",
+                "opcname": "滤池远程/就地",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchijinshuifakai",
+                "opcname": "滤池进水阀开",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchijinshuifabanguan",
+                "opcname": "滤池进水阀半关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchijinshuifaguan",
+                "opcname": "滤池进水阀关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchipaishuifakai",
+                "opcname": "滤池排水阀开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchipaishuifaguan",
+                "opcname": "滤池排水阀关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchiqixifakai",
+                "opcname": "滤池气洗阀开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchiqixifaguan",
+                "opcname": "滤池气洗阀关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchishuixifakai",
+                "opcname": "滤池水洗阀开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchishuixifaguan",
+                "opcname": "滤池水洗阀关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchipaiqifakai",
+                "opcname": "滤池排气阀开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchipaiqifaguan",
+                "opcname": "滤池排气阀关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchishoudong",
+                "opcname": "滤池手动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchizidong",
+                "opcname": "滤池自动",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangfengjifaxianchangyaokong1",
+                "opcname": "滤池风机阀1遥控/现场",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangfengjifakai1",
+                "opcname": "滤池风机阀1开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangfengjifaguan1",
+                "opcname": "滤池风机阀1关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangfengjifaxianchangyaokong2",
+                "opcname": "滤池风机阀2遥控/现场",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangfengjifakai2",
+                "opcname": "滤池风机阀2开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangfengjifaguan2",
+                "opcname": "滤池风机阀2关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangshuibengfaxianchangyaokong1",
+                "opcname": "滤池水泵阀1遥控/现场",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangshuibengfakai1",
+                "opcname": "滤池水泵阀1开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangshuibengfaguan1",
+                "opcname": "滤池水泵阀1关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangshuibengfaxianchangyaokong2",
+                "opcname": "滤池水泵阀2遥控/现场",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangshuibengfakai2",
+                "opcname": "滤池水泵阀2开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangshuibengfaguan2",
+                "opcname": "滤池水泵阀2关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangshuibengfaxianchangyaokong3",
+                "opcname": "滤池水泵阀3遥控/现场",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangshuibengfakai3",
+                "opcname": "滤池水泵阀3开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchikongzhixiangshuibengfaguan3",
+                "opcname": "滤池水泵阀3关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "fanchongxifengjixianchangyaokong1",
+                "opcname": "风机1现场/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "fanchongxifengjixianchangyaokong2",
+                "opcname": "风机2现场/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "fanchongxishuibengxianchangyaokong1",
+                "opcname": "水泵1现场/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "fanchongxishuibengxianchangyaokong2",
+                "opcname": "水泵2现场/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "fanchongxishuibengxianchangyaokong3",
+                "opcname": "水泵3现场/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuochijiaobanqishoudongzidong",
+                "opcname": "污泥浓缩池搅拌器手动/自动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuochijiaobanqiyunxing",
+                "opcname": "污泥浓缩池搅拌器运行",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuochijiaobanqiqidong",
+                "opcname": "污泥浓缩池搅拌器启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuochijiaobanqitingzhi",
+                "opcname": "污泥浓缩池搅拌器停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuoji1shoudongzidong",
+                "opcname": "污泥浓缩机1手动/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuoji1yunxing",
+                "opcname": "污泥浓缩机1运行",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuoji1qidong",
+                "opcname": "污泥浓缩机1启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuoji1tingzhi",
+                "opcname": "污泥浓缩机1停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuoji2shoudongzidong",
+                "opcname": "污泥浓缩机2手动/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuoji2yunxing",
+                "opcname": "污泥浓缩机2运行",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuoji2qidong",
+                "opcname": "污泥浓缩机2启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "wuninongsuoji2tingzhi",
+                "opcname": "污泥浓缩机2停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1jiaobanqishoudongzidong",
+                "opcname": "沉淀池1搅拌器手动/自动",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1jiaobanqi1qidong",
+                "opcname": "沉淀池1搅拌器1启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1jiaobanqi1tingzhi",
+                "opcname": "沉淀池1搅拌器1停止",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1jiaobanqi2qidong",
+                "opcname": "沉淀池1搅拌器2启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1jiaobanqi2tingzhi",
+                "opcname": "沉淀池1搅拌器2停止",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2jiaobanqishoudongzidong",
+                "opcname": "沉淀池2搅拌器自动/手动",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2jiaobanqiyunxing",
+                "opcname": "沉淀池2搅拌器运行",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2jiaobanqiqidong",
+                "opcname": "沉淀池2搅拌器启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2jiaobanqitingzhi",
+                "opcname": "沉淀池2搅拌器停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1painicheshoudongzidong",
+                "opcname": "沉淀池1排泥车手动/自动",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1painicheqianjin",
+                "opcname": "沉淀池1排泥车前进",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1painichehoutui",
+                "opcname": "沉淀池1排泥车后退",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1painichetingzhi",
+                "opcname": "沉淀池1排泥车停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1painichedianchifakai",
+                "opcname": "沉淀池1排泥车电磁阀开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1painichedianchifaguan",
+                "opcname": "沉淀池1排泥车电磁阀关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1painicheqianshuibengkai",
+                "opcname": "沉淀池1排泥车潜水泵开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi1painicheqianshuibengguan",
+                "opcname": "沉淀池1排泥车潜水泵关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichejiudiyuancheng",
+                "opcname": "沉淀池2刮泥机就地/远程",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painicheshoudongzidong",
+                "opcname": "沉淀池2刮泥机手动/自动",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhengzouyunxing",
+                "opcname": "沉淀池2刮泥机正走指示灯",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhengzou",
+                "opcname": "沉淀池2刮泥机正走",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichefanzouyunxing",
+                "opcname": "沉淀池2刮泥机反走指示灯",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichefanzou",
+                "opcname": "沉淀池2刮泥机反走",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichetingzhi",
+                "opcname": "沉淀池2刮泥机停止",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongbengqidong1",
+                "opcname": "沉淀池2刮泥机真空泵1启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongbengqidong2",
+                "opcname": "沉淀池2刮泥机真空泵2启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongbengtingzhi1",
+                "opcname": "沉淀池2刮泥机真空泵1停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongbengtingzhi2",
+                "opcname": "沉淀池2刮泥机真空泵2停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongfaqidong1",
+                "opcname": "沉淀池2刮泥机破坏真空阀1启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongfaqidong2",
+                "opcname": "沉淀池2刮泥机破坏真空阀2启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongfatingzhi1",
+                "opcname": "沉淀池2刮泥机破坏真空阀1停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongfatingzhi2",
+                "opcname": "沉淀池2刮泥机破坏真空阀2停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongbeng1yunxing",
+                "opcname": "沉淀池2刮泥机真空泵1运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongbeng2yunxing",
+                "opcname": "沉淀池2刮泥机真空泵2运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongfa1yunxing",
+                "opcname": "沉淀池2刮泥机破坏真空阀1运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chendianchi2painichezhenkongfa2yunxing",
+                "opcname": "沉淀池2刮泥机破坏真空阀2运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangshoudongyaokong",
+                "opcname": "一号排泥阀手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa1kai",
+                "opcname": "一号排泥阀1开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa1guan",
+                "opcname": "一号排泥阀1关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa2kai",
+                "opcname": "一号排泥阀2开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa2guan",
+                "opcname": "一号排泥阀2关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa3kai",
+                "opcname": "一号排泥阀3开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa3guan",
+                "opcname": "一号排泥阀3关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa4kai",
+                "opcname": "一号排泥阀4开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa4guan",
+                "opcname": "一号排泥阀4关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa5kai",
+                "opcname": "一号排泥阀5开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa5guan",
+                "opcname": "一号排泥阀5关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa6kai",
+                "opcname": "一号排泥阀6开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaopainifakongzhixiangpainifa6guan",
+                "opcname": "一号排泥阀6关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangshoudongyaokong",
+                "opcname": "二号排泥阀手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa1kai",
+                "opcname": "二号排泥阀1开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa1guan",
+                "opcname": "二号排泥阀1关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa2kai",
+                "opcname": "二号排泥阀2开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa2guan",
+                "opcname": "二号排泥阀2关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa3kai",
+                "opcname": "二号排泥阀3开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa3guan",
+                "opcname": "二号排泥阀3关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa4kai",
+                "opcname": "二号排泥阀4开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa4guan",
+                "opcname": "二号排泥阀4关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa5kai",
+                "opcname": "二号排泥阀5开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa5guan",
+                "opcname": "二号排泥阀5关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa6kai",
+                "opcname": "二号排泥阀6开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaopainifakongzhixiangpainifa6guan",
+                "opcname": "二号排泥阀6关",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong1",
+                "opcname": "三号排泥阀1手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai1",
+                "opcname": "三号排泥阀1开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan1",
+                "opcname": "三号排泥阀1关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong2",
+                "opcname": "三号排泥阀2手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai2",
+                "opcname": "三号排泥阀2开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan2",
+                "opcname": "三号排泥阀2关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong3",
+                "opcname": "三号排泥阀3手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai3",
+                "opcname": "三号排泥阀3开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan3",
+                "opcname": "三号排泥阀3关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong4",
+                "opcname": "三号排泥阀4手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai4",
+                "opcname": "三号排泥阀4开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan4",
+                "opcname": "三号排泥阀4关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong5",
+                "opcname": "三号排泥阀5手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai5",
+                "opcname": "三号排泥阀5开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan5",
+                "opcname": "三号排泥阀5关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong6",
+                "opcname": "三号排泥阀6手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai6",
+                "opcname": "三号排泥阀6开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan6",
+                "opcname": "三号排泥阀6关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong7",
+                "opcname": "三号排泥阀7手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai7",
+                "opcname": "三号排泥阀7开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan7",
+                "opcname": "三号排泥阀7关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong8",
+                "opcname": "三号排泥阀8手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai8",
+                "opcname": "三号排泥阀8开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan8",
+                "opcname": "三号排泥阀8关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong9",
+                "opcname": "三号排泥阀9手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai9",
+                "opcname": "三号排泥阀9开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan9",
+                "opcname": "三号排泥阀9关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong10",
+                "opcname": "三号排泥阀10手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai10",
+                "opcname": "三号排泥阀10开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan10",
+                "opcname": "三号排泥阀10关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong11",
+                "opcname": "三号排泥阀11手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai11",
+                "opcname": "三号排泥阀11开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan11",
+                "opcname": "三号排泥阀11关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong12",
+                "opcname": "三号排泥阀12手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai12",
+                "opcname": "三号排泥阀12开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan12",
+                "opcname": "三号排泥阀12关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong13",
+                "opcname": "三号排泥阀13手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai13",
+                "opcname": "三号排泥阀13开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan13",
+                "opcname": "三号排泥阀13关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong14",
+                "opcname": "三号排泥阀14手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai14",
+                "opcname": "三号排泥阀14开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan14",
+                "opcname": "三号排泥阀14关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong15",
+                "opcname": "三号排泥阀15手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai15",
+                "opcname": "三号排泥阀15开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan15",
+                "opcname": "三号排泥阀15关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong16",
+                "opcname": "三号排泥阀16手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai16",
+                "opcname": "三号排泥阀16开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan16",
+                "opcname": "三号排泥阀16关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong17",
+                "opcname": "三号排泥阀17手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai17",
+                "opcname": "三号排泥阀17开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan17",
+                "opcname": "三号排泥阀17关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong18",
+                "opcname": "三号排泥阀18手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai18",
+                "opcname": "三号排泥阀18开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan18",
+                "opcname": "三号排泥阀18关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong19",
+                "opcname": "三号排泥阀19手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai19",
+                "opcname": "三号排泥阀19开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan19",
+                "opcname": "三号排泥阀19关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangshoudongyaokong20",
+                "opcname": "三号排泥阀20手动/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangkai20",
+                "opcname": "三号排泥阀20开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaopainifakongzhixiangguan20",
+                "opcname": "三号排泥阀20关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chouyaobengkongzhixiangshoudongzidong",
+                "opcname": "抽药泵控制箱手动/自动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chouyaobengkongzhixiangqiehuan",
+                "opcname": "抽药泵控制箱泵切换",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chouyaobengkongzhixiangqidong1",
+                "opcname": "抽药泵控制箱泵1启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chouyaobengkongzhixiangyunxing1",
+                "opcname": "抽药泵控制箱泵1运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chouyaobengkongzhixiangyunxing2",
+                "opcname": "抽药泵控制箱泵2运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chouyaobengkongzhixiangtingzhi1",
+                "opcname": "抽药泵控制箱泵1停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chouyaobengkongzhixiangqidong2",
+                "opcname": "抽药泵控制箱泵2启动",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "chouyaobengkongzhixiangtingzhi2",
+                "opcname": "抽药泵控制箱泵2停止",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng1",
+                "opcname": "加药间电动球阀1本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng2",
+                "opcname": "加药间电动球阀2本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng3",
+                "opcname": "加药间电动球阀3本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng4",
+                "opcname": "加药间电动球阀4本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng5",
+                "opcname": "加药间电动球阀5本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng6",
+                "opcname": "加药间电动球阀6本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng7",
+                "opcname": "加药间电动球阀7本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng8",
+                "opcname": "加药间电动球阀8本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng9",
+                "opcname": "加药间电动球阀9本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng10",
+                "opcname": "加药间电动球阀10本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng11",
+                "opcname": "加药间电动球阀11本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufabendiyuancheng12",
+                "opcname": "加药间电动球阀12本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai1",
+                "opcname": "加药间电动球阀1打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan1",
+                "opcname": "加药间电动球阀1关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai2",
+                "opcname": "加药间电动球阀2打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan2",
+                "opcname": "加药间电动球阀2关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai3",
+                "opcname": "加药间电动球阀3打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan3",
+                "opcname": "加药间电动球阀3关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai4",
+                "opcname": "加药间电动球阀4打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan4",
+                "opcname": "加药间电动球阀4关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai5",
+                "opcname": "加药间电动球阀5打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan5",
+                "opcname": "加药间电动球阀5关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai6",
+                "opcname": "加药间电动球阀6打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan6",
+                "opcname": "加药间电动球阀6关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai7",
+                "opcname": "加药间电动球阀7打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan7",
+                "opcname": "加药间电动球阀7关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai8",
+                "opcname": "加药间电动球阀8打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan8",
+                "opcname": "加药间电动球阀8关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai9",
+                "opcname": "加药间电动球阀9打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan9",
+                "opcname": "加药间电动球阀9关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai10",
+                "opcname": "加药间电动球阀10打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan10",
+                "opcname": "加药间电动球阀10关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai11",
+                "opcname": "加药间电动球阀11打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan11",
+                "opcname": "加药间电动球阀11关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufakai12",
+                "opcname": "加药间电动球阀12打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangdiandongqiufaguan12",
+                "opcname": "加药间电动球阀12关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangjiliangbengbendiyuancheng3",
+                "opcname": "加药间计量泵3本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangjiliangbengkai3",
+                "opcname": "加药间计量泵3打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangjiliangbengguan3",
+                "opcname": "加药间计量泵3关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangjiliangbengbendiyuancheng4",
+                "opcname": "加药间计量泵4本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangjiliangbengkai4",
+                "opcname": "加药间计量泵4打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangjiliangbengguan4",
+                "opcname": "加药间计量泵4关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangbianpinqiyunxing1",
+                "opcname": "加药间变频器1运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangbianpinqidakaiguanbi1",
+                "opcname": "加药间变频器1打开/关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangbianpinqiyunxing2",
+                "opcname": "加药间变频器2运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangbianpinqidakaiguanbi2",
+                "opcname": "加药间变频器2打开/关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangzixibengbendiyuancheng1",
+                "opcname": "加药间自吸泵1本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangzixibengkai1",
+                "opcname": "加药间自吸泵1打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangzixibengguan1",
+                "opcname": "加药间自吸泵1关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangzixibengbendiyuancheng2",
+                "opcname": "加药间自吸泵2本地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangzixibengkai2",
+                "opcname": "加药间自吸泵2打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojiankongzhixiangzixibengguan2",
+                "opcname": "加药间自吸泵2关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaosongshuibianpinguikai",
+                "opcname": "一号送水变频器打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaosongshuibianpinguiguan",
+                "opcname": "一号送水变频器关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaosongshuibianpinguiyunxing",
+                "opcname": "一号送水变频器运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "yihaosongshuibianpinguixianchangyaokong",
+                "opcname": "一号送水变频器现场/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaosongshuibianpinguikai",
+                "opcname": "二号送水变频器打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaosongshuibianpinguiguan",
+                "opcname": "二号送水变频器关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaosongshuibianpinguiyunxing",
+                "opcname": "二号送水变频器运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "erhaosongshuibianpinguixianchangyaokong",
+                "opcname": "二号送水变频器现场/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaosongshuibianpinguikai",
+                "opcname": "三号送水变频器打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaosongshuibianpinguiguan",
+                "opcname": "三号送水变频器关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaosongshuibianpinguiyunxing",
+                "opcname": "三号送水变频器运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sanhaosongshuibianpinguixianchangyaokong",
+                "opcname": "三号送水变频器现场/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sihaosongshuibianpinguikai",
+                "opcname": "四号送水变频器打开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sihaosongshuibianpinguiguan",
+                "opcname": "四号送水变频器关闭",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sihaosongshuibianpinguiyunxing",
+                "opcname": "四号送水变频器运行",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "sihaosongshuibianpinguixianchangyaokong",
+                "opcname": "四号送水变频器现场/遥控",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchiqiehuanji1kai",
+                "opcname": "滤池切换机1开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchiqiehuanji1guan",
+                "opcname": "滤池切换机1关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchiqiehuanji2kai",
+                "opcname": "滤池切换机2开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchiqiehuanji2guan",
+                "opcname": "滤池切换机2关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchiganzaoji1kaiguan",
+                "opcname": "滤池干燥机1开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "lvchiganzaoji2kaiguan",
+                "opcname": "滤池干燥机2开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "qingshuichijialvfamenkaiguan",
+                "opcname": "清水池自身水加氯阀门开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }, {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojianzixibengfamen1kaiguan",
+                "opcname": "加药间自吸泵阀门1开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojianzixibengfamen2kaiguan",
+                "opcname": "加药间自吸泵阀门2开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayabengfamenkaiguan",
+                "opcname": "加压泵阀门开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaojianpaiqifakaiguan",
+                "opcname": "加药间排气阀开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "shuibenglianjiefakaiguan",
+                "opcname": "水泵连接阀开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "shuibenglianjiefa2kaiguan",
+                "opcname": "水泵连接阀2开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaobengfamen1kaiguan",
+                "opcname": "加药泵阀门1开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "jiayaobengfamen2kaiguan",
+                "opcname": "加药泵阀门2开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "shuichongbeng1kai",
+                "opcname": "水冲泵1开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "shuichongbeng1guan",
+                "opcname": "水冲泵1关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }
+
+            , {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "shuichongbeng2kai",
+                "opcname": "水冲泵2开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "shuichongbeng2guan",
+                "opcname": "水冲泵2关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "gaoyasongshuibengkai",
+                "opcname": "高压送水泵开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "gaoyasongshuibengguan",
+                "opcname": "高压送水泵关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "gaoyasongshuibengxianchangjiudi",
+                "opcname": "高压送水泵现场/就地",
+                "opcvalue": "1",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "gaoyasongshuibengfamenkai",
+                "opcname": "高压送水泵阀门开",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "gaoyasongshuibengfamenguan",
+                "opcname": "高压送水泵阀门关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "gaoyasongshuibengfamenxianchangjiudi",
+                "opcname": "高压送水泵阀门就地/远程",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "ganzaoji2famen1kaiguan",
+                "opcname": "干燥机2阀门1开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "ganzaoji2paiqikaiguan",
+                "opcname": "干燥机2排气装置开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "ganzaoji2famen2kaiguan",
+                "opcname": "干燥机2阀门2开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "ganzaoji1famen1kaiguan",
+                "opcname": "干燥机1阀门1开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "ganzaoji1famen2kaiguan",
+                "opcname": "干燥机1阀门2开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "ganzaoji1paiqikaiguan",
+                "opcname": "干燥机1排气装置开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "houjialvfamen1kaiguan",
+                "opcname": "后加氯阀门1开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "houjialvfamen2kaiguan",
+                "opcname": "后加氯阀门2开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "houjialvfamen3kaiguan",
+                "opcname": "后加氯阀门3开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "houjialvfamen4kaiguan",
+                "opcname": "后加氯阀门4开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            },
+            {
+                "assemblyguid": "08852641-254a-4ecf-a5de-103f292462b2",
+                "numbertype": "0",
+                "opcdwguid": "6c242a39-ee93-49d2-8e73-e4160d831bb7",
+                "opcid": "houjialvfamen5kaiguan",
+                "opcname": "后加氯阀门5开/关",
+                "opcvalue": "0",
+                "subsystemguid": "d695382f-22f8-4f43-8036-bc507cd12cc3"
+            }
+
+
+
+
+
+        ]
+    }
+}

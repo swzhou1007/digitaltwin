@@ -1,0 +1,180 @@
+.fly-pannel {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	border-radius: 3px;
+	height: 60px;
+}
+
+.fly-pannel-body {
+	width: 341px;
+	height: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 6px;
+}
+
+.fly-pannel-title {
+	width: 100%;
+	box-sizing: border-box;
+	height: 37.5px;
+	line-height: 37.5px;
+	background-color: #fff;
+	padding-left: 15px;
+	border-radius: 3px;
+}
+
+.fly-pannel-title span {
+	font-size: 16px;
+	color: #1071e2;
+}
+
+
+.fly-pannel-body table {
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.fly-pannel-body table tbody {
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.fly-pannel-body tr {
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+	width: 100%;
+	height: 100%;
+}
+
+.fly-pannel-body tr:last-child {
+	margin-bottom: 0;
+}
+
+.fly-pannel-body table tbody tr td {
+	display: block;
+	float: left;
+	height: 100%;
+	line-height: 30px;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 42px;
+}
+
+.fly-pannel-body table tbody tr td:first-child {
+	width: 84px;
+	overflow: hidden;
+}
+
+.fly-pannel-body table tbody tr td:last-child {
+	margin-right: 0
+}
+
+.fly-pannel-btn {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	/* background-color: #e7f1fc; */
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+}
+
+
+.btn-down {
+	width: 52px;
+	height: 26px;
+	line-height: 24px;
+}
+
+.fly-pannel-closebtn {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	cursor: pointer;
+	background: url(../Images/close.png) no-repeat;
+	background-position: center;
+}
+
+.backward {
+	display: block;
+	background: url(../Images/system-backward.png) no-repeat;
+	background-position: center;
+}
+
+.start {
+	display: block;
+	background: url(../Images/system-play.png) no-repeat;
+	background-position: center;
+}
+
+.forward {
+	display: block;
+	background: url(../Images/system-forward.png) no-repeat;
+	background-position: center;
+}
+
+.restart {
+	width: 25px;
+	background: url(../Images/重放.png) no-repeat;
+	background-position: center;
+	display: none;
+}
+
+.backward:hover {
+	background: url(../Images/system-backward-white.png) no-repeat;
+	background-position: center;
+}
+
+.start:hover {
+	background: url(../Images/system-play-white.png) no-repeat;
+	background-position: center;
+}
+
+.forward:hover {
+	background: url(../Images/system-forward-white.png) no-repeat;
+	background-position: center;
+}
+
+.restart:hover {
+	background: url(../Images/重放02.png) no-repeat;
+	background-position: center;
+}
+
+.pause {
+	background: url(../Images/system-pause.png) no-repeat;
+	background-position: center;
+}
+
+.pause:hover {
+	background: url(../Images/system-pause-white.png) no-repeat;
+	background-position: center;
+}
+#overFly_table{
+	display: flex;
+	flex-direction: row;
+	padding:12px 170px 0 170px;
+}
+#overFly_table tbody {	
+	display: block;
+	width: 100%;
+}
+#overFly_table tbody tr{	
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

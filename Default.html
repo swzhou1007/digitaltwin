@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 63.5%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="bookmark" href="./favicon.ico" />
+    <title>数字孪生平台</title>
+
+    <script src="./Frontend/plugins/jquery/jquery-3.3.1.min.js"></script>
+    <script src="Build/Cesium/Cesium.js"></script>
+
+    <link href="./Frontend/pescoui/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./Frontend/pescoui/css/list.css" rel="stylesheet" />
+    <link href="./Frontend/pescoui/css/form.css" rel="stylesheet" />
+    <link href="./Frontend/pescoui/css/main.css" rel="stylesheet" />
+    <link href="./Frontend/pescoui/css/theme.css" rel="stylesheet" />
+    <!-- 滑块插件引入 -->
+    <link href="./Frontend/plugins/slider/slider.css" rel="stylesheet">
+    <script src="./Frontend/plugins/slider/slider.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="Build/Cesium/Widgets/widgets.css" />
+    <link rel="stylesheet" type="text/css" href="Default.css" />
+
+    <link rel="stylesheet" type="text/css" href="Style/NavigationControl.css" />
+    <link rel="stylesheet" type="text/css" href="Style/Toolbar.css" />
+    <link rel="stylesheet" type="text/css" href="Style/LayersControl.css" />
+    <link rel="stylesheet" type="text/css" href="Style/ElementControl.css" />
+    <link rel="stylesheet" type="text/css" href="Style/SightMarker.css" />
+    <link rel="stylesheet" type="text/css" href="Style/ElementTree.css" />
+    <link rel="stylesheet" type="text/css" href="Style/Messure.css" />
+    <link rel="stylesheet" type="text/css" href="Style/Fly.css" />
+    <link rel="stylesheet" type="text/css" href="Style/HideTop.css" />
+    <link rel="stylesheet" type="text/css" href="Style/Excavation.css" />
+    <link rel="stylesheet" type="text/css" href="Style/Clip.css" />
+    <link rel="stylesheet" type="text/css" href="Style/Linkage.css" />
+    <link rel="stylesheet" type="text/css" href="Style/Label.css" />
+    <link rel="stylesheet" type="text/css" href="Style/SystemFly.css" />
+    <link rel="stylesheet" type="text/css" href="Style/Boom.css" />
+    <link rel="stylesheet" type="text/css" href="Style/AllView.css" />
+
+    <link rel="stylesheet" type="text/css" href="Style/Train.css" />
+
+</head>
+
+<body class="default" id="body">
+    <canvas id="canv" style="display: none"></canvas>
+
+
+
+    <!-- 360全视角 -->
+    <div class="all-view" id="allView">
+        <div class="all-view-title"><span>360°实景图</span><span id="allViewName"></span>
+            <div class="all-view-close-btn" onclick="oAllView.closeAllView()"></div>
+            <div class="all-view-max-btn" onclick="oAllView.max()"></div>
+            <div class="all-view-min-btn" onclick="oAllView.min()"></div>
+        </div>
+        <div class="all-view-body" id="allViewBody">
+            <iframe src="" style="width: 100%;height: 100%;border: none;" id="allViewIframe"></iframe>
+        </div>
+    </div>
+
+    <!-- 模型爆炸滑动条 -->
+    <div class="boom-display" id="boomPannel">
+        <div class="boom-input-wrapper">
+            <div class="boom-input-closebtn" onclick="oBoom.clearBoom()"></div>
+            <div class="boom-input-minus"></div>
+            <input type='range' id="boomInput" class="boom-input" oninput="oBoom.inputRangeChange()" value="5" min="0" max="15" step="0.1" />
+            <div class="boom-input-plus"></div>
+        </div>
+    </div>
+
+    <!--主-->
+    <div id="cesiumContainer"></div>
+    <!-- 培训 -->
+    <div class="train-container" id="trainContainer" style="display: none">
+        <div id="stepQuestionList" class="question-step-box step-box">
+            <div class="dialog-fold-ctrl">
+                <div class="question-step-title" id="questionTitle" data-question="5e3ceb3b-00c4-4c57-a9ae-20ede02b2893" data-questiontype="1" data-index="0"><span style="font-weight:normal;" id="questiontext"><b>题目1 ：</b>污泥脱水操作</span></div>
+                <div class="question-btn-help"><i id="questionHelp" class="fa fa-question-circle-o" aria-hidden="true"></i><i id="questionMarker" class="fa fa-location-arrow" aria-hidden="true"></i><i id="questionList" class="fa fa-bars" aria-hidden="true"></i></div>
+                <ul id="questionStepList" class="question-step-content"></ul>
+                <div id="trainStepBtn" class="question-step-footer"><button data-id="reset" class="question-button active" onclick="oTrain.resetTrainStep()">重置</button><button data-id="submit" class="question-button active" onclick="oTrain.submitTrainStep()">提交</button><button data-id="next" class="question-button">下一题</button></div>
+            </div>
+            <div class="dialog-fold" id="questionStepClose"><i class="fa fa-angle-double-right" aria-hidden="true"></i></div>
+        </div>
+        <div class="train-list" id="trainList" style="float: left;display: none">
+            <div class="train-list-title"><span>操作步骤</span></div>
+            <div class="train-list-body" id="trainStepBody"></div>
+        </div>
+        <div id="allQuestionList" class="question-step-box question-all-box active" style=" margin-left: 10px;display: none">
+            <div class="question-step-title" title="">题目目录</div>
+            <div class="question-step-search">
+                <div><i class="fa fa-search" aria-hidden="true"></i><input id="inputQuestionSearch" autocomplete="off" type="text" placeholder="输入搜索内容"><button id="allQuestionSearch">搜索</button></div>
+            </div>
+            <ul class="question-step-content" id="questionListContent"></ul>
+            <div class="question-btn-help" id="closeQuestionList"><i class="fa step-close"></i></div>
+        </div>
+
+        <div class="sight-marker-list" id="questionMarkerList" style="display: none;margin-left: 10px;">
+            <div class="sight-list-title"><span>位置</span>
+            </div>
+            <div class="sight-list-body">
+                <div class="sight-list-container" id="questionSightListContainer" style="height: 535px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--工具栏-->
+    <div class="n-toolbar">
+        <div class="n-menulist" id="i-n-menulist" style="display: none;">
+            <div title="360°视角" class="n-menulistimg allview" id="i-n-allview"></div>
+            <div title="模型爆炸" class="n-menulistimg baozha" id="i-n-baozha"></div>
+            <div title="视角书签" class="n-menulistimg shuqian" id="i-n-shuqian"></div>
+            <div title="构件树查询" class="n-menulistimg goujianshu" id="i-n-goujianshu"></div>
+            <div title="测量" class="n-menulistimg messure" id="i-n-messure"></div>
+            <div title="属性查询" class="n-menulistimg shuxing" id="i-n-shuxing"></div>
+            <div title="构件透明" class="n-menulistimg touming" id="i-n-touming"></div>
+            <div title="构件隐藏" class="n-menulistimg yincang" id="i-n-yincang"></div>
+            <div title="掀顶" class="n-menulistimg xianding" id="i-n-xianding"></div>
+            <!-- <div title="线框模式" class="n-menulistimg xiankuang" id="i-n-xiankuang"></div> -->
+            <div title="地图复位" class="n-menulistimg fuwei" id="i-n-fuwei"></div>
+            <div title="培训" class="n-menulistimg peixun" id="i-n-peixun"></div>
+            <div title="考核" class="n-menulistimg kaohe" id="i-n-kaohe"></div>
+        </div>
+        <span class="n-layers" id="i-n-layers"></span>
+        <span class="n-menuimg" id="i-n-menuimg"></span>
+    </div>
+
+    <div class="right-container">
+        <!-- 图层/模型列表 -->
+        <div class="n-layerlist" id="i-n-layerlist" style="display: none;">
+            <div class="layerlist-title">
+                <span>影像图层/模型</span>
+                <div class="layerlist-close" onclick="oLayersControl.closeLayerList()"></div>
+            </div>
+            <ul class="layerlist-contianer" id="layerListContainer"></ul>
+        </div>
+        <!-- 视角书签列表 -->
+        <div class="sight-marker-list" id="markerList" style="display: none;">
+            <div class="sight-list-title"><span>视角书签</span>
+                <div class="sight-close-btn" onclick="oSightMarker.closeList()"></div>
+            </div>
+            <div class="sight-list-body">
+                <div class="sight-input-container">
+                    <input type="text" id="sightInput">
+                    <div class="add-sight-btn" onclick="oSightMarker.addSight()"><i class="fa fa-plus" style="color: #fff;font-size: 16px;font-weight: lighter;"></i></div>
+                </div>
+                <div class="sight-list-container" id="sightListContainer"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="left-container">
+        <!-- 构建树 -->
+        <div class="element-tree" id="elementTree" style="display: none;">
+            <div class="element-tree-title"><span>构件树</span>
+                <div class="element-tree-closebtn" onclick="oElementTree.closeTree()"></div>
+            </div>
+            <div class="element-tree-container" id="elementTreeContainer"></div>
+        </div>
+        <!-- 测量操作面板 -->
+        <div class="messure-pannel" id="messurePannel" style="display: none;">
+            <div class="pannel-title">
+                <span>测量</span>
+                <div class="pannel-close-btn" id="closeMessurePannel"></div>
+            </div>
+            <div class="pannel-body">
+                <div class="pannel-btn-wrapper">
+                    <div class="pannel-btn" id="messureLength">
+                        <img src="./Images/changdu.svg">
+                        <span>测量长度</span>
+                    </div>
+                </div>
+                <div class="pannel-btn-wrapper">
+                    <div class="pannel-btn" id="messureArea">
+                        <img src="./Images/mianji.svg">
+                        <span>测量面积</span>
+                    </div>
+                </div>
+                <div class="pannel-btn-wrapper">
+                    <div class="pannel-btn" id="messureHeight">
+                        <img src="./Images/gaodu.svg">
+                        <span>测量高度</span>
+                    </div>
+                </div>
+                <div class="pannel-btn-cancel" id="cancelMessureBtn">撤销</div>
+            </div>
+        </div>
+        <!-- 构件属性弹框 -->
+        <div class="element-attr-popup" id="elementAttrPopup" style="display: none;">
+            <div class="popup-title" id="popupTitle"><span>阀门</span>
+                <div class="popup-close" onclick="oElementControl.closePopup()"></div>
+            </div>
+            <div class="popup-body">
+                <div class="popup-table-container">
+                    <table class="popup-table">
+                        <thead>
+                            <tr>
+                                <td>名称</td>
+                                <td>值</td>
+                            </tr>
+                        </thead>
+                        <tbody id="equipDetailList">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="popup-btn-group1" style="height: 50px;">
+                    <div class="popup-btn btn-detail">设备详情</div>
+                    <div class="popup-btn btn-repair">报修</div>
+                </div>
+            </div>
+        </div>
+        <!-- 构件隐藏列表 -->
+        <div class="hide-list" id="hideList" style="display: none;">
+            <div class="hide-list-title"><span>隐藏构件列表</span></div>
+            <div class="hide-list-body" id="hideListBody"></div>
+        </div>
+        <!-- 构件透明列表 -->
+        <div class="alpha-list" id="alphaList" style="display: none;">
+            <div class="alpha-list-title"><span>透明构件列表</span></div>
+            <div class="alpha-list-body" id="alphaListBody"></div>
+        </div>
+    </div>
+    <!-- 图例 -->
+    <!-- <div class="tuli">
+			<div style="height: 30px;line-height: 29px;width: 100%;font-size: 16px;padding-left: 5px;border-bottom: 1px solid #fff;">图例</div>
+			<div style="height: 60px;width: 100%;display: flex;flex-direction: row;">
+				<div style="width: 40%;height: 59px;line-height: 60px;font-size: 16px;padding-left: 5px;border-right: 1px solid #fff;">泵状态</div>
+				<div style="width: 60%;height: 60px;">
+					<div style="width: 100%;height: 30px;display: flex;flex-direction: row;justify-content: space-around;">
+						<div style="width: 40%;height: 30px;line-height: 29px;font-size: 14px;">运行</div>
+						<div style="width: 40%;height: 20px;margin-top:5px ;background-color: #4281a9;"></div>
+					</div>
+					<div style="width: 100%;height: 30px;display: flex;flex-direction: row;justify-content: space-around;">
+						<div style="width: 40%;height: 30px;line-height: 29px;font-size: 14px;">停止</div>
+						<div style="width: 40%;height: 20px;margin-top:5px ;background-color: #B35846;"></div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+    <!--底部状态栏-->
+    <!-- <div id="latlng-show" class="bottom-data">
+			<div class="logo-img">
+				<img src="./Images/favicon.png">
+				<div class="logo-img-text">数字孪生平台</div>
+			</div>
+			<div style="height:26px;float:right;margin-right: 30px;font-size: 13px;">
+				<font style="font-weight: lighter;" size="1" color="#ffffff">视角海拔高：<span id="altitude-show"></span>m</font>
+			</div>
+			<div style="height:26px;float:right;margin-right: 30px;font-size: 13px;">
+				<font style="font-weight: lighter;" size="1" color="#ffffff">海拔：<span id="elevation-show"></span>m</font>
+			</div>
+			<div style="height:26px;float:right;margin-right: 30px;font-size: 13px;">
+				<font style="font-weight: lighter;" size="1" color="#ffffff">纬度：<span id="latitude-show"></span></font>
+			</div>
+			<div style="height:26px;float:right;margin-right: 30px;font-size: 13px;">
+				<font style="font-weight: lighter;" size="1" color="#ffffff">经度：<span id="longitude-show"></span></font>
+			</div>
+		</div> -->
+
+    <!-- 飞行操作面板 -->
+    <div class="system-fly-panel" id="flyPannel" style="display: none;">
+        <div class="system-fly-pannel-body">
+            <table id="overFly_table">
+                <tbody>
+                </tbody>
+            </table>
+            <input type="range" class="system-fly-range" value=0 style="top:10px;margin:0 74px;">
+        </div>
+    </div>
+
+    <!-- 地形开挖面板 -->
+    <!-- 	<div class="excavation-pannel" id="excavationPannel">
+			<div class="pannel-title">
+				<span>地形开挖</span>
+				<div class="pannel-close-btn" id="closeExcavationPannel"></div>
+			</div>
+			<div class="pannel-body">
+				<div class="pannel-btn-wrapper">
+					<div class="pannel-btn" id="startExcavation">
+						<span>绘制开挖区域</span>
+					</div>
+				</div>
+				<div class="pannel-input-wrapper">
+					<div class="pannel-input-title">开挖深度</div>
+					<div class="pannel-input-body">
+						<input type="text" id="excavationInput" value="50"><span>米</span>
+					</div>
+				</div>
+				<div class="pannel-btn-cancel" id="clearExcavation">清除</div>
+			</div>
+		</div> -->
+
+    <!-- 剖切面板 -->
+    <!-- <div class="clip-pannel" id="clipPannel">
+			<div class="pannel-title">
+				<span>剖切</span>
+				<div class="pannel-close-btn" id="closeClipPannel"></div>
+			</div>
+			<div class="pannel-body">
+				<div class="pannel-input-wrapper">
+					<div class="pannel-input-title">选择剖切单体</div>
+					<div class="pannel-input-body">
+						<select id="clipSelect" class="clip-select" style="-webkit-appearance:  menulist;!important"></select>
+					</div>
+				</div>
+				<div class="pannel-btn-wrapper">
+					<div class="pannel-btn" id="startClip1">
+						<span>开始剖切(方向1)</span>
+					</div>
+				</div>
+				<div class="pannel-btn-wrapper">
+					<div class="pannel-btn" id="startClip2">
+						<span>开始剖切(方向2)</span>
+					</div>
+				</div>
+				<div class="pannel-btn-cancel" id="stopClip">取消剖切</div>
+			</div>
+		</div> -->
+
+    <!-- 二三维联动 -->
+    <!-- 		<div class="linkage" id="linkage">
+			<div class="linkage-title"><span>二维影像</span>
+				<div class="linkage-close-btn" onclick="oLinkage.closeLinkage()"></div>
+			</div>
+			<iframe id="openlayers" src="./openlayers.html" class="linkage-openlayers"></iframe>
+		</div>
+ -->
+
+
+</body>
+<script src="./Frontend/pescoui/js/theme.js"></script>
+<script src="./Frontend/pescoui/js/form.js"></script>
+<script src="./Frontend/plugins/dialog/dialog.js"></script>
+<script src="./Frontend/pescoui/js/list.js"></script>
+<script src="./Frontend/pescoui/js/list-lang-zh_CN.js"></script>
+<script src="./Frontend/pescoui/js/global.js"></script>
+<script src="./Frontend/plugins/jquery-photo-gallery/jquery.photo.gallery.js" type="text/javascript"></script>
+
+<!-- 工具js -->
+
+<script src="Js/PolylineTrailLink.js"></script>
+<script src="Js/PolylineTrailLinkV.js"></script>
+<script src="Js/Turf.min.js"></script>
+<script src="Js/OperationOptimization.js"></script>
+<script src="Config.js"></script>
+<script src="Default.js"></script>
+<script src="Js/InitialState.js"></script>
+<script src="Js/ViewerCesiumNavigationMixin.js"></script>
+<script src="Qita.js"></script>
+
+<!-- 基本工具js -->
+<script src="Js/Tools/Boom.js"></script>
+<script src="Js/Tools/LayersControl.js"></script>
+<script src="Js/Tools/ToolBar.js"></script>
+<script src="Js/Tools/ElementControl.js"></script>
+<script src="Js/Tools/SightMarker.js"></script>
+<script src="Js/Tools/ElementTree.js"></script>
+<script src="Js/Tools/Messure.js"></script>
+<script src="Js/Tools/HideTop.js"></script>
+<script src="Js/Tools/AllView.js"></script>
+<script src="Js/Tools/QitaControl.js"></script>
+<!-- 培训考核 -->
+<script src="Js/Tools/Train.js"></script>
+<script src="Js/Tools/Test.js"></script>
+<script src="Train/Location.js"></script>
+
+
+<!-- 系统js -->
+<script src="Js/Plugins/Systems/System/System.js"></script>
+<script src="Js/Plugins/Systems/DosingSystem/Dosing.js"></script>
+<script src="Js/Plugins/Systems/MudSystem/Mud.js"></script>
+<script src="Js/Plugins/Systems/BackFlushingSystem/BackFlushing.js"></script>
+<script src="Js/Plugins/Systems/FilterSystem/Filter.js"></script>
+<script src="Js/Plugins/Systems/WaterDeliverySystem/WaterDelivery.js"></script>
+<script src="Js/Plugins/Systems/SedimentSystem/Sediment.js"></script>
+
+<script>
+    window.addEventListener('message', function(e) {
+        console.log(e.data)
+        if (e.data.system == 'System') {
+            oDefault.createViewer();
+            oDefault.clearAll();
+            oSystem.restoreCameraEvents();
+            oSystem.createFlyPanel();
+            oSystem.getData();
+        }
+        if (e.data.system == 'WaterDeliverySystem') {
+            oDefault.clearAll();
+            oWaterDelivery.showWaterDeliverySystem();
+        }
+        if (e.data.system == 'BackFlushingSystem') {
+            oDefault.clearAll();
+            oBackFlushing.showBackFlushingSystem();
+        }
+        if (e.data.system == 'DosingSystem') {
+            oDefault.clearAll();
+            oDosing.showDosingSystem();
+        }
+        if (e.data.system == 'FilterSystem') {
+            oDefault.clearAll();
+            oFilter.showFilterSystem();
+        }
+        if (e.data.system == 'MudSystem') {
+            oDefault.clearAll();
+            oMud.showMudSystem();
+        }
+        if (e.data.system == 'SedimentSystem') {
+            oDefault.clearAll();
+            oSediment.showSedimentSystem();
+        }
+    }, false);
+
+    ! function() {
+        oDefault.createViewer();
+        oDefault.clearAll();
+        oSystem.restoreCameraEvents();
+        oSystem.createFlyPanel();
+        oSystem.getData();
+    }()
+</script>
+
+</html>

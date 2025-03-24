@@ -1,0 +1,167 @@
+.system-fly-panel-hide {
+	position: absolute;
+	bottom: 80px;
+	right: 0;
+	width: 22px;
+	height: 38px;
+	background-color: rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	background-image: url(../Images/more.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 3px;
+	display: none;
+}
+
+
+
+.system-fly-panel {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	border-radius: 3px;
+}
+
+.system-fly-pannel-body {
+	width: 522px;
+	height: 98px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	position: relative;
+}
+
+.system-fly-pannel-btngroup {
+	width: 100%;
+	height: 46px;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	padding: 12px 170px 0 170px;
+	justify-content: space-between;
+}
+
+.system-fly-btn {
+	width: 34px;
+	height: 34px;
+	cursor: pointer;
+}
+
+.system-backward {
+	background: url(../Images/system-backward.png) no-repeat;
+	background-position: center;
+}
+
+.system-play {
+	background: url(../Images/system-play.png) no-repeat;
+	background-position: center;
+}
+
+.system-forward {
+	background: url(../Images/system-forward.png) no-repeat;
+	background-position: center;
+}
+
+.system-pause {
+	background: url(../Images/system-pause.png) no-repeat;
+	background-position: center;
+}
+
+.system-fly-pannel-range {
+	width: 100%;
+	height: 56px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	padding: 0 16px;
+}
+
+.system-fly-pannel-time {
+	width: 46px;
+	color: white;
+	line-height: 56px;
+}
+
+.system-fly-range {
+	-webkit-appearance: none;
+	width: 374px;
+	margin: 0 12px;
+	height: 5px;
+	background-color: rgba(255, 255, 255, 0.3);
+	position: relative;
+	top: 25px;
+}
+
+.system-fly-range::-webkit-slider-thumb {
+	-webkit-appearance: none;	
+	cursor: default;
+	top: 0;
+	height: 20px;
+	width: 6px;
+	border-radius: 1px;
+	transform: translateY(0px);	
+	background: #fff;
+}
+
+.system-fly-pannel-rateforward {
+	position: absolute;
+	top: 12px;
+	right: 100px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	width: 50px;
+	z-index: 100;
+	color: white;
+}
+
+.system-fly-pannel-ratebackward {
+	position: absolute;
+	top: 12px;
+	left: 100px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	width: 50px;
+	z-index: 100;
+	color: white;
+}
+
+.system-fly-pannel-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 10px;
+	height: 10px;
+	background-image: url(../Images/关闭.png);
+	background-size: 100%;
+	background-position: center;
+	cursor: pointer;
+}
+
+.data-roll-control{
+	z-index: 100;
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+	width: 106px;
+	height: 24px;
+	background-color: rgba(0,0,0,0.15);
+	display: flex;
+	flex-direction: row;
+	color:rgba(255,255,255,0.3);
+	border-radius: 2px;
+}
+.data-roll-control-div{
+	border-radius: 2px;
+	width: 50%;
+	height: 100%;
+	cursor: pointer;
+	text-align: center;
+	line-height: 23px;
+}
+.data-roll-control .active{	
+	color:rgba(255,255,255,1);
+	background-color:rgba(0,0,0,0.3) ;
+}
